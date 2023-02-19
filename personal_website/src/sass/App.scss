@@ -1,78 +1,139 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
 
 // DEFAULTS
-body {
-	font-family: 'Poppins', sans-serif;
-	font-size: 18px;
-	line-height: 1.75;
-
-	background-color: #081931;
-	color: #ffffff;
-	margin: 80px auto 48px auto;
-	width: 1120px;
-}
-
-h1 {
-	font-size: 32px;
-	font-weight: 700;
-}
-
-
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
-  // font: inherit;
+  font: inherit;
   vertical-align: baseline;
 }
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 body {
   line-height: 1;
 }
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-img, iframe {
+img,
+iframe {
   vertical-align: bottom;
   max-width: 100%;
 }
-
-// input, textarea, select {
-//   font: inherit;
-// }
-
+input,
+textarea,
+select {
+  font: inherit;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -80,4 +141,45 @@ img, iframe {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.75;
+  // background-color: #030e35;
+  background-image: url("/assets/tree.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 90vh;
+  color: #ffffff;
+  margin: 80px auto 48px auto;
+  width: 1120px;
+  min-height: 100vh;
+}
+
+section {
+  margin: 150px 0px 80px 0px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px 32px;
+  h1 {
+    grid-column: 1 / span 5;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  h2 {
+    grid-column: 1 / span 9;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 55%;
+  }
+  .pink {
+    color: #fdccff;
+  }
+  .orange {
+    color: #fec700;
+  }
 }

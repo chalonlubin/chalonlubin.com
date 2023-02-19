@@ -1,0 +1,16 @@
+.about {
+  p {
+    margin-top: 25%;
+    font-size: 1.25em;
+    grid-column: 1 / span 5;
+  }
+  img {
+    margin-top: 25%;
+    grid-column: 7 / span 7;
+    width: 90%;
+    height: 75%;
+    object-fit: cover;
+    border: 10px solid black;
+    border-radius: 40%;
+  }
+}
