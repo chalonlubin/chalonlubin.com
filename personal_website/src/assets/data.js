@@ -1,11 +1,11 @@
-const projects = [
+export const projects = [
   {
-    title: "Friender",
+    title: "Chum Bucket",
     subtitle:
       "Backend: Node.js, Express, AWS S3, SQL | Frontend: React, Bootstrap, SCSS",
     description:
       "Node.js, Express, and Sequelize for the back-end and React with Tailwind for the front-end, maintaining 90% test coverage. Key features include authentication with JSON web token, comprehensive CRUD operations, and a real-time messaging interface via websocket.",
-    image: "./project-1.gif",
+    image: "../assets/chum-bucket.png",
     link: "https://reactbootcamp.com",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
       "Backend: Node.js, Express, PostgreSQL | Frontend: React, Bootstrap",
     description:
       "Designed a JSON returning Node-Express RESTful backend with resources for users, jobs, companies, and applications. Achieved and maintained 90% test coverage between unit and integration tests across the entire backend. Authorization and authentication using JSON Web Tokens and encrypted passwords using BCrypt.",
-    image: "./project-3.gif",
+    image: "./jobly-demo.gif",
     link: "https://jsbootcamp.com",
   },
   {
@@ -34,5 +34,3 @@ const projects = [
     link: "https://pythonbootcamp.com",
   },
 ];
-
-export { projects };

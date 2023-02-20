@@ -6,20 +6,31 @@ function About() {
   return (
     <div className="about">
       <section>
-        <p>
-          Meet Chalon - the full-stack software engineer extraordinaire! Whether
-          it's designing a stunning frontend web app or building a robust
-          backend, Chalon is always eager to improve his skills and learn new
-          tricks. But that's not all - Chalon's experiences as a mental health
-          counselor, program director for a non-profit, and bar manager have
-          given him unique perspectives on working with people and effective
-          communication. Now, he's excited to bring those skills to the software
-          industry and make a difference. If you're looking for a skilled and
-          versatile software engineer for full-time work or freelance
-          opportunities, look no further than Chalon. He's ready to take on any
-          challenge and bring your web/app development dreams to life.
-        </p>
         <img src={chalon} alt="Chalon" />
+        <div>
+          <p>
+            I'm an Alaskan born full-stack software engineer, currently living
+            in Bend, OR. I found a love for coding in March 2022, when a friend
+            of mine introduced me to writing scripts for a video game we were
+            playing at the time. He explained what he did for work, and I asked
+            a million follow-up questions. Once he pointed me in the right
+            direction to self-teach, I was off. Since then I have started my own
+            web design company for freelance work, and I also graduated from a
+            full stack software engineering bootcamp.
+            <br></br>
+            <br></br>I enjoy coding because it is a creative outlet for me. I
+            love the challenge of solving problems and opportunity to
+            participate in an industry that changes drastically each year. I am
+            always looking for new ways to improve my skills, and I am excited
+            to see what the future holds. <br></br>
+            <br></br>When I'm not coding, I enjoy spending my time outdoors,
+            hiking, biking, and camping. In the winter I snowboard every chance
+            I get. I also train in muay thai regularly. I enjoy a good music
+            festival here and there as well, and I love to travel. I've lived in
+            Australia, New Zealand, and spend six months living out of a
+            backpack in South East Asia once upon a time.
+          </p>
+        </div>
       </section>
     </div>
   );
