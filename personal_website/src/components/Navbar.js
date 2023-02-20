@@ -1,21 +1,32 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../sass/Navbar.scss";
 import mountain from "../assets/mountain.svg";
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <div>
-        <Link to="/">
-          <img src={mountain} alt="logo" className="logo" />
-        </Link>
-      </div>
-      <Link to="/about">About</Link>
-      <Link to="/projects">Projects</Link>
-      <Link to="/skills">Skills</Link>
-      <Link to="/contact">Contact</Link>
-    </nav>
+    <header className="header-nav">
+      <img src={mountain} alt="logo" className="logo" />
+      <nav>
+        <ul className="nav-list">
+          <li>
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about">About</NavLink>
+          </li>
+          <li>
+            <NavLink to="/projects">Projects</NavLink>
+          </li>
+          <li>
+            <NavLink to="/resume">Resume</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact">Contact</NavLink>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 }
 

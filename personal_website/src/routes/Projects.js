@@ -1,7 +1,12 @@
 import React from "react";
 
 function Projects() {
-  return "Projects Here";
+  return (
+    <section className="projects">
+      <h1>Projects</h1>
+      <p>Coming soon!</p>
+    </section>
+  );
 }
 
 export default Projects;

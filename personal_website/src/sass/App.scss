@@ -142,6 +142,8 @@ select {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
+
+// GLOBAL
 body {
   font-family: "Poppins", sans-serif;
   line-height: 1.75;
@@ -150,36 +152,29 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-  height: 90vh;
   color: #ffffff;
   margin: 80px auto 48px auto;
   width: 1120px;
-  min-height: 100vh;
 }
 
-section {
-  margin: 150px 0px 80px 0px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 32px 32px;
-  h1 {
-    grid-column: 1 / span 5;
-    text-align: left;
-    font-size: 48px;
-    font-weight: 700;
-  }
-  h2 {
-    grid-column: 1 / span 9;
-    text-align: left;
-    font-size: 24px;
-    font-weight: 300;
-    margin-bottom: 55%;
-  }
-  .pink {
-    color: #fdccff;
-  }
-  .orange {
+h1, nav {
+  font-size: 40px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0 0 32px;
+transition: color 0.3s;
+  &:hover {
     color: #fec700;
   }
 }
+
+// SECTIONS
+section {
+  margin: 80px 0px 80px 0px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px 32px;
+}
+
