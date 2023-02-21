@@ -1,22 +1,18 @@
 .about {
   div {
-    background-color: white;
-    border-radius: 1%;
-    border: 1px solid rgb(0, 0, 0);
-  padding: 1.5em;
+  padding: 1.25em;
   }
   div, p {
     font-size: 1.00em;
-    line-height: 1.75;
-    grid-column: 1 / span 12;
+    line-height: 1.45;
+    grid-column: 2 / span 12;
     color: black;
   }
   img {
-    grid-column: 4/ span 6;
-    // width: 90%;
-    // height: 75%;
-    // object-fit: cover;
-    border: 25px solid rgb(255, 247, 247);
+    grid-column: 5/ span 6;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 50%;
+    max-width: 400px;
+    max-height: 400px;
   }
 }

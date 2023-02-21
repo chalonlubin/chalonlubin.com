@@ -1,28 +1,35 @@
 import React from "react";
+import { RiGithubLine } from "react-icons/ri";
+import { CgWebsite } from "react-icons/cg";
 
-function Project({ title, description, image, link, github }) {
+function Project({ title, subtitle, description, image, link, github }) {
   return (
-    <div className="flex justify-center">
-      <div className="rounded-lg shadow-lg bg-white max-w-sm">
-        <a href="#!">
-          <img className="rounded-t-lg" src={image} alt="" />
+    <div className="project-card rounded-lg shadow-lg bg-black m-5 p-7 max-w-lg text-center flex flex-col justify-center items-center">
+      <a href="#!">
+        <img
+          className="rounded-t-lg max-w-md max-h-96"
+          src={image}
+          alt={title}
+        />
+      </a>
+      <div className="p-4">
+        <h5 className="text-white-900 text-xl font-medium mb-3">{title}</h5>
+        <br></br>
+        <p className="text-white-700 text-base mb-4">{description}</p>
+      </div>
+      <div className="flex content-evenly m-auto">
+        <a className="mx-10" href={link}>
+          <CgWebsite
+            className="w-12 h-12 hover:text-orange-300 text-pink-300"
+            alt="demo"
+          />
         </a>
-        <div className="p-6">
-          <h5 className="text-gray-900 text-xl font-medium mb-2">{title}</h5>
-          <p className="text-gray-700 text-base mb-4">{description}</p>
-          <button
-            type="button"
-            className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-          >
-            Demo
-          </button>
-          <button
-            type="button"
-            className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-          >
-            Github
-          </button>
-        </div>
+        <a className="mx-10" href={github}>
+          <RiGithubLine
+            className="w-12 h-12 hover:text-orange-300"
+            alt="demo"
+          />
+        </a>
       </div>
     </div>
   );

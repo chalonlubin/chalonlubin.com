@@ -147,8 +147,8 @@ select {
 body {
   font-family: "Poppins", sans-serif;
   line-height: 1.75;
-  // background-color: #030e35;
-  background-image: url("/assets/tree.jpg");
+  background-color: #030e35;
+  background-image: url("../assets/tree.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -157,18 +157,7 @@ body {
   width: 1120px;
 }
 
-h1, nav {
-  font-size: 40px;
-}
-a {
-  color: white;
-  text-decoration: none;
-  margin: 0 0 0 32px;
-transition: color 0.3s;
-  &:hover {
-    color: #fec700;
-  }
-}
+
 
 // SECTIONS
 section {
