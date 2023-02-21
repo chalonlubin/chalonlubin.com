@@ -3,10 +3,10 @@ import { CgWebsite } from "react-icons/cg";
 
 function Project({ title, subtitle, description, image, link, github }) {
   return (
-    <div className="project-card rounded-lg shadow-lg bg-gray-900 m-5 p-7 max-w-lg text-center flex flex-col justify-center items-center">
+    <div className="project-card rounded-lg shadow-lg bg-gray-900 m-5 p-7 max-w-lg text-center flex flex-col justify-center items-center act">
       <a href="#!">
         <img
-          className="rounded-t-lg max-w-md max-h-96"
+          className="rounded-t-lg max-w-md max-h-96 grayscale opacity-25 hover:filter-none hover:opacity-100"
           src={image}
           alt={title}
         />

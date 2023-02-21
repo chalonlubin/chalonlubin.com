@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../sass/Footer.scss";
 import { RiLinkedinFill, RiGithubLine, RiTwitterLine } from "react-icons/ri";
 
@@ -5,15 +6,15 @@ function Footer() {
   return (
     <div className="footer-container">
       <footer className="footer">
-        <a href="www.linkedin.com/chalonlubin">
+        <Link to="https://www.linkedin.com/in/chalonl/">
           <RiLinkedinFill />
-        </a>
-        <a href="www.github.com/chalonl">
+        </Link>
+        <Link to="https://github.com/chalonlubin">
           <RiGithubLine />
-        </a>
-        <a href="mailto:chalonlubin1@gmail.com">
+        </Link>
+        <Link to="https://mailto:chalonlubin1@gmail.com">
           <RiTwitterLine />
-        </a>
+        </Link>
       </footer>
     </div>
   );
