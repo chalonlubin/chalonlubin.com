@@ -15,7 +15,7 @@ function Home() {
       setWord(words[Math.floor(Math.random() * words.length)]);
     }, 2500);
     return () => clearInterval(interval);
-  }, []);
+  });
 
   return (
     <div className="home">
