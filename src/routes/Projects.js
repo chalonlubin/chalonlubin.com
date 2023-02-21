@@ -1,4 +1,3 @@
-import React from "react";
 import Project from "../components/Project";
 import "../sass/Projects.scss";
 import { projects } from "../assets/data";

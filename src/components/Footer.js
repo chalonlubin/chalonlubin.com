@@ -1,4 +1,3 @@
-import React from "react";
 import "../sass/Footer.scss";
 import { RiLinkedinFill, RiGithubLine, RiTwitterLine } from "react-icons/ri";
 

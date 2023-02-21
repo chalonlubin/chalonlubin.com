@@ -1,4 +1,3 @@
-import React from "react";
 import { RiGithubLine } from "react-icons/ri";
 import { CgWebsite } from "react-icons/cg";
 
