@@ -18,7 +18,7 @@ function Navbar() {
             <NavLink to="/projects">Projects</NavLink>
           </li>
           <li>
-            <NavLink to="/resume">Resume</NavLink>
+            <NavLink to="/skills">Skills</NavLink>
           </li>
           <li>
             <NavLink to="/contact">Contact</NavLink>

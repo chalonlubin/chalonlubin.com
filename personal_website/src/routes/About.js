@@ -6,16 +6,25 @@ function About() {
     <div className="about">
       <section>
         <img className="rounded-t-lg" src="images/chalon1.png" alt="Chalon" />
-        <div className="rounded-lg shadow-lg bg-white ">
-          <p className="text-grey-700 text-base mb-4">
+        <div className="rounded-lg shadow-lg bg-gray-900 ">
+          <p className="text-base text-gray-50 mb-4">
             I'm an Alaskan born full-stack software engineer, currently living
             in Bend, OR. I found a love for coding in March 2022, when a friend
             of mine introduced me to writing scripts for a video game we were
             playing at the time. He explained what he did for work, and I asked
             a million follow-up questions. Once he pointed me in the right
             direction to start learning, I was off. Since then I have graduated
-            from a top-tier full stack software engineering bootcamp and started
-            my own web design company for freelance work.
+            from a
+            <a className="text-orange-300" href="https://www.rithmschool.com/">
+              {" "}
+              top-tier full stack software engineering bootcamp{" "}
+            </a>
+            and started my own
+            <a className="text-fuchsia-300" href="https://www.farout.com/">
+              {" "}
+              web design company{" "}
+            </a>
+            for freelance work.
             <br></br>
             <br></br>I enjoy coding because it is a creative outlet for me. I
             love the challenge of solving problems and opportunity to

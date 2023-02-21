@@ -4,7 +4,7 @@ import { CgWebsite } from "react-icons/cg";
 
 function Project({ title, subtitle, description, image, link, github }) {
   return (
-    <div className="project-card rounded-lg shadow-lg bg-black m-5 p-7 max-w-lg text-center flex flex-col justify-center items-center">
+    <div className="project-card rounded-lg shadow-lg bg-gray-900 m-5 p-7 max-w-lg text-center flex flex-col justify-center items-center">
       <a href="#!">
         <img
           className="rounded-t-lg max-w-md max-h-96"
