@@ -5,16 +5,19 @@ function About() {
   return (
     <div className="about">
       <section>
-        <img className="rounded-t-lg" src="images/chalon1.png" alt="Chalon" />
-        <div className="rounded-lg shadow-lg bg-gray-900 ">
-          <p className="text-base text-gray-50 mb-4">
+        <img
+          className="rounded-t-lg mt-6"
+          src="images/chalon1.png"
+          alt="Chalon"
+        />
+        <div className="rounded-lg shadow-lg bg-gray-900 mt-7">
+          <p className="text-base text-gray-50">
             I'm an Alaskan born full-stack software engineer, currently living
             in Bend, OR. I found a love for coding in March 2022, when a friend
-            of mine introduced me to writing scripts for a video game we were
-            playing at the time. He explained what he did for work, and I asked
-            a million follow-up questions. Once he pointed me in the right
-            direction to start learning, I was off. Since then I have graduated
-            from a
+            introduced me to writing scripts for a video game we were playing.
+            He explained what he did for work, and I asked a million follow-up
+            questions. Once he pointed me in the right direction to start
+            learning, I was off. Since then I have graduated from a
             <a className="text-orange-300" href="https://www.rithmschool.com/">
               {" "}
               top-tier full stack software engineering bootcamp{" "}
@@ -22,9 +25,8 @@ function About() {
             and started my own
             <a className="text-fuchsia-300" href="https://www.farout.com/">
               {" "}
-              web design company{" "}
+              web development company.
             </a>
-            for freelance work.
             <br></br>
             <br></br>I enjoy coding because it is a creative outlet for me. I
             love the challenge of solving problems and opportunity to
@@ -37,13 +39,7 @@ function About() {
             festival here and there as well, and I love to travel. Having lived
             in Australia, New Zealand, and spent six months backpacking across
             Southeast Asia, I have developed a deep appreciation for diverse
-            cultures and experiences.
-            <br></br>
-            <br></br>
-            In summary, I am a driven and dynamic individual who brings a unique
-            combination of technical and creative skills to every project I
-            undertake. Whether I'm coding or exploring the great outdoors, I am
-            always eager to learn and grow both personally and professionally.
+            cultures and experiences. I am always looking for new adventures.
           </p>
         </div>
       </section>
