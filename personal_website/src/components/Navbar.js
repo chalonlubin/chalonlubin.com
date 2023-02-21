@@ -5,7 +5,7 @@ import "../sass/Navbar.scss";
 function Navbar() {
   return (
     <header className="header-nav">
-      <img src="mountain.svg" alt="logo" className="logo" />
+      <img src="/images/mountain.svg" alt="logo" className="logo" />
       <nav>
         <ul className="nav-list">
           <li>

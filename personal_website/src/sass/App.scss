@@ -144,6 +144,10 @@ select {
 }
 
 // GLOBAL
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
   font-family: "Poppins", sans-serif;
   line-height: 1.75;
@@ -153,7 +157,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   color: #ffffff;
-  margin: 80px auto 48px auto;
+  margin: 80px auto 6% auto;
   width: 1120px;
 }
 
