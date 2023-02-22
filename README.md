@@ -25,7 +25,7 @@ Over the next few months I plan to add:
 ### To install 
 1. Clone the repo.
 2. `npm install`
-3. `npm run`
+3. `npm start`
 4. `npm test` to run tests
 5. That's all!
 
