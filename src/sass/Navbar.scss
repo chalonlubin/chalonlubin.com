@@ -1,0 +1,47 @@
+
+// Nav Bar Container
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -58px;
+
+
+  .logo {
+    width: 20%;
+    height: 20%;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 32px;
+    line-height: 1.2;
+  }
+  a {
+  margin: 0px 16px 0px 16px;
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+transition: color 0.3s;
+  &:hover {
+    color: rgb(251, 175, 94);
+    transition: color 0.6s;
+  }
+  }
+  h1 {
+    font-size: 40px;
+  }
+  a {
+
+  }
+
+  .active {
+    color: rgb(243, 190, 245);
+    text-decoration: none;
+    transition: color 0.6s;
+  }
+}
+
+
+

@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+
+// DEFAULTS
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img,
+iframe {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+input,
+textarea,
+select {
+  font: inherit;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+// GLOBAL
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.75;
+  background-color: #030e35;
+  // background-image: url("../assets/tree.jpg");
+  // background-image: url("https://media0.giphy.com/media/UTHFuyuMENren9AI9b/giphy.gif?cid=ecf05e47lj3z7xlteamxpcy07xulve03wupmdehhkukehvyb&rid=giphy.gif&ct=g");
+  background-image: url("https://media4.giphy.com/media/Y3MLVPRtnzpbygOqef/giphy.gif?cid=ecf05e47owanc0xp7ksshx8g7lb8x2atvz7pa10x9jt69r5t&rid=giphy.gif&ct=g");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  margin: 80px auto 6% auto;
+  width: 1120px;
+}
+
+
+
+// SECTIONS
+section {
+  margin: 80px 0px 80px 0px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px 32px;
+}
+
