@@ -4,15 +4,20 @@
 
 My personal website showcasing my portfolio and a bit about me. 
 
+### To install 
+
+1. Clone the repo.
+2. `npm install`
+3. `npm start`
+4. `npm test` to run tests
+5. That's all!
+
 ## Details
 
-### v1
-The first iteration of this website was build in October 2022, with HTML and CSS. 
-
-### v2
-As I leveled up I decided to add additional features and build a more robsut website using React. I also used Scss, along with Tailwind to assist with styling, and designed my own logos with Figma. An interesting note about this project is I treated it as if I was freelancing, so there is a wireframe, moodboard, and mock-up in figma with multiple designs as to simulate working with a client. I did face some design challenges as I wasn't sure if I should be colorful or go for a cleaner look. On my next iteration I wil opt for a cleaner less bold look, just to try somethng new. I also deployed the site using render, and bought my first web domain. 
+Converted from JS/HTML/CSS to React. I also used Scss, along with Tailwind to assist with styling, and designed my own logos with Figma. An interesting note about this project is I treated it as if I was freelancing, so there is a wireframe, moodboard, and mock-up in figma with multiple designs as to simulate working with a client. I did face some design challenges as I wasn't sure if I should be colorful or go for a cleaner look. On my next iteration I wil opt for a cleaner less bold look, just to try somethng new. I deployed the site using nelify.
 
 Over the next few months I plan to add: 
+- Responsiveness.
 - An interactive resume page.
 - Light and dark mode.
 - Optional music player. 
@@ -20,14 +25,6 @@ Over the next few months I plan to add:
 - Loader component.
 - Conversion to Typescript.
 - Testing. 
-
-
-### To install 
-1. Clone the repo.
-2. `npm install`
-3. `npm start`
-4. `npm test` to run tests
-5. That's all!
 
 ### To note: if you plan on using my project as a template, please give a bit of credit in the HTML, and of course stars are appreciated.
 
