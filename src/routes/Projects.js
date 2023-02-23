@@ -2,6 +2,14 @@ import Project from "../components/Project";
 import "../sass/Projects.scss";
 import { projects } from "../assets/data";
 
+
+/** Project Page: Contains information on recent projects.
+ *
+ *  Props: none
+ *  State: none
+ *
+ * App --> RouteList --> Projects
+ */
 function Projects() {
   return (
     <div className="projects">

@@ -1,27 +1,57 @@
 import React from "react";
+import { toast } from "react-toastify"
 
+/** Contact Page: Contains form for contact
+ *
+ *  Props: none
+ *  State: formData
+ *
+ * App --> RouteList --> Contact
+ */
 function Contact() {
-  const [name, setName] = React.useState("");
-  const [email, setEmail] = React.useState("");
-  const [message, setMessage] = React.useState("");
+  const [formData, setFormData] = React.useState({name: "", email: "", message: ""});
 
-  function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  }
+    /** Update form data field */
+    function handleChange(evt) {
+      const { name, value } = evt.target;
+      setFormData((f) => ({ ...f, [name]: value }));
+    }
 
+    /** Handle form submission:
+   * - try to send message via Nelify
+   *    - if sent, show success message
+   *    - if fails, show error message
+   **/
   function handleSubmit(e) {
     e.preventDefault();
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
+      body: { "form-name": "contact", "name": formData.name, "email": formData.email, "message": formData.message },
     })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
+      .then(() => toast('Message Received!', {
+        position: "bottom-left",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        }))
+
+      .catch((error) => toast('Failed to send message', {
+        position: "bottom-left",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        }));
+
+      e.target.reset()
   }
 
   return (
@@ -49,7 +79,8 @@ function Contact() {
             id="name"
             name="name"
             className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            onChange={(e) => setName(e.target.value)}
+            onChange={handleChange}
+            required
           />
         </div>
         <div className="relative mb-4">
@@ -61,7 +92,8 @@ function Contact() {
             id="email"
             name="email"
             className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={handleChange}
+            required
           />
         </div>
         <div className="relative mb-4">
@@ -72,7 +104,8 @@ function Contact() {
             id="message"
             name="message"
             className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-            onChange={(e) => setMessage(e.target.value)}
+            onChange={handleChange}
+            required
           />
         </div>
         <button

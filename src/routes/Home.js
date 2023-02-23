@@ -1,15 +1,23 @@
 import React, { useEffect } from "react";
 import "../sass/Home.scss";
 
+/** Home: Root / landing page.
+ *
+ *  Props: none
+ *  State: word
+ *
+ * App --> RouteList --> Home
+ */
 function Home() {
-  const [word, setWord] = React.useState("a freelance web developer.");
+  const [word, setWord] = React.useState("am a freelance web developer. 👋");
   const words = [
-    "an animal lover.",
-    "an avid Denver Nuggets fan.",
-    "a full stack software engineer.",
-    "a freelance web developer",
+    "enjoy making out-of-the-box designs! 👽",
+    "am a full stack software engineer 👾",
+    "was born in Alaska 🏂",
+    "have traveled to 4 continents ✈️ ",
   ];
 
+  /** Changes word phrase every 2.5 seconds, randomly. */
   useEffect(() => {
     const interval = setInterval(() => {
       setWord(words[Math.floor(Math.random() * words.length)]);
@@ -26,7 +34,7 @@ function Home() {
             <span className="orange">Chalon Lubin</span>
           </h1>
           <h2>
-            I am <span id="iAm">{word}</span>
+            <span id="iAm">I {word}</span>
             <br></br>I'm interested developing projects that solve real world
             problems, improve lives, inspire creativity or that are simply
             interesting.

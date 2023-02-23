@@ -1,5 +1,13 @@
 import "../sass/About.scss";
 
+
+/** About
+ *
+ *  Props: none
+ *  State: none
+ *
+ * App --> RouteList --> About
+ */
 function About() {
   return (
     <div className="about">

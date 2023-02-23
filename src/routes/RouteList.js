@@ -7,6 +7,15 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import NotFound from "./NotFound";
 
+
+/** Set up for routes in portfolio app
+ *
+ *
+ * Props: none
+ * State: none
+ *
+ * App -> RoutesList
+ */
 function RouteList() {
   return (
     <Routes>
