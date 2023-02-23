@@ -4,16 +4,18 @@
 
 My personal website showcasing my portfolio and a bit about me. 
 
-## Tech
-
-React | Tailwind CSS | SCSS | Nelify | Figma
+---
 
 ### To Run 
 
-1. Clone the repo.
+1. `git clone <link>`
 2. `npm install`
 3. `npm start`
-4. `npm test` to run tests
+4. `npm test` for testing
+
+## Tech
+
+React | Tailwind CSS | SCSS | Nelify | Figma
 
 ## Details
 
@@ -31,6 +33,8 @@ Converted from JS/HTML/CSS to React. I also used Scss, along with Tailwind to as
 - Testing
 
 ### Thanks for stopping by!
+
+---
 
 MIT License
 
