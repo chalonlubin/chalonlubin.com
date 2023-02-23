@@ -4,7 +4,11 @@
 
 My personal website showcasing my portfolio and a bit about me. 
 
-### To install 
+## Tech
+
+React | Tailwind CSS | SCSS | Nelify | Figma
+
+### To Run 
 
 1. Clone the repo.
 2. `npm install`
@@ -15,17 +19,16 @@ My personal website showcasing my portfolio and a bit about me.
 
 Converted from JS/HTML/CSS to React. I also used Scss, along with Tailwind to assist with styling, and designed my own logos with Figma. An interesting note about this project is I treated it as if I was freelancing, so there is a wireframe, moodboard, and mock-up in figma with multiple designs as to simulate working with a client. I did face some design challenges as I wasn't sure if I should be colorful or go for a cleaner look. On my next iteration I wil opt for a cleaner less bold look, just to try somethng new. I deployed the site using nelify.
 
-Over the next few months I plan to add: 
-- Responsiveness.
-- An interactive resume page.
-- Light and dark mode.
-- Optional music player. 
-- 404 page.
-- Loader component.
-- Conversion to Typescript.
-- Testing. 
+## TODO: 
 
-### To note: if you plan on using my project as a template, please give a bit of credit in the HTML, and of course stars are appreciated.
+- Responsiveness
+- An interactive resume page
+- Light and dark mode
+- Optional music player
+- Loader component
+- SEO Considerations
+- Conversion to Typescript
+- Testing
 
 ### Thanks for stopping by!
 
