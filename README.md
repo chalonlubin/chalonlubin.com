@@ -10,7 +10,6 @@ My personal website showcasing my portfolio and a bit about me.
 2. `npm install`
 3. `npm start`
 4. `npm test` to run tests
-5. That's all!
 
 ## Details
 
