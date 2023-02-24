@@ -12,8 +12,7 @@ import { projects } from "../assets/data";
  */
 function Projects() {
   return (
-    <div className="projects">
-      <div className="projects-cards flex flex-wrap justify-center items-stretch px-2">
+      <div className="projects-cards flex flex-wrap justify-evenly px-2">
         {projects.map((project) => (
           <Project
             title={project.title}
@@ -24,7 +23,7 @@ function Projects() {
           />
         ))}
       </div>
-    </div>
+
   );
 }
 

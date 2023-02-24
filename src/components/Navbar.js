@@ -3,8 +3,8 @@ import "../sass/Navbar.scss";
 
 function Navbar() {
   return (
-    <header className="header-nav">
-      <Link className="logo" to="/"><img src="/images/logo4.png" alt="logo" /></Link>
+    <header className="header-nav relative flex w-full flex-wrap items-center justify-between">
+      <NavLink className="logo mt-2 mr-1 flex items-center" to="/"><img src="images/Logo4.png" alt="coding logo"></img></NavLink>
       <nav>
         <ul className="nav-list">
           <li>
@@ -18,6 +18,9 @@ function Navbar() {
           </li>
           <li>
             <NavLink to="/contact">Contact</NavLink>
+          </li>
+          <li>
+          <a href="Resume.pdf" target="_blank">Resume</a>
           </li>
         </ul>
       </nav>

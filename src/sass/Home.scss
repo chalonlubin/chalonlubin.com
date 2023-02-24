@@ -1,21 +1,27 @@
   .home {
     p {
       font-size: 1.4em;
+      font-weight: bold;
       grid-column: 1 / span 12;
       text-align: center;
+      text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
     }
     h1 {
     grid-column: 1 / span 12;
     text-align: center;
     font-size: 48px;
     font-weight: 700;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
   }
   h2 {
     grid-column: 1 / span 12;
     text-align: center;
-    font-size: 24px;
-    font-weight: 300;
-    margin-bottom: 55%;
+    font-size: 22px;
+    font-weight: bold;
+    // margin-bottom: 55%;
+  }
+  .home-sub {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
   }
   .pink {
     color: #fdccff;
@@ -24,12 +30,13 @@
   .orange {
     color: #fec700;
   }
+  .home-container {
+    margin-top: 10%;
+    grid-column: 2 / span 10;
+    padding: auto;
+  }
 }
-.home-container {
-  margin-top: 10%;
-  grid-column: 2 / span 10;
-  padding: auto;
-}
+
 
 
 #iAm {
@@ -37,7 +44,7 @@
       background-image: linear-gradient(
         -225deg,
         #f7cbf7 0%,
-        #3f66f3 29%,
+        #c3f6dc 29%,
         #22f7c2 67%,
         #ffdb66 100%
       );

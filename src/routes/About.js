@@ -13,11 +13,11 @@ function About() {
     <div className="about">
       <section>
         <img
-          className="rounded-t-lg mt-6"
+          className="rounded-t-lg"
           src="images/chalon1.png"
           alt="Chalon"
         />
-        <div className="rounded-lg shadow-lg bg-gray-900 mt-7">
+        <div className="rounded-lg shadow-lg bg-gray-900 mx-5">
           <p className="text-base text-gray-50">
             I'm an Alaskan born full-stack software engineer, currently living
             in Bend, OR. I found a love for coding in March 2022, when a friend
