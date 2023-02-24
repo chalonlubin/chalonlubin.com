@@ -2,11 +2,11 @@
 
 - https://chalonlubin.com
 
-My personal website showcasing my portfolio and a bit about me. 
+My personal website showcasing my portfolio and a bit about me.
 
 ---
 
-### To Run 
+### To Run
 
 1. `git clone <link>`
 2. `npm install`
@@ -15,7 +15,7 @@ My personal website showcasing my portfolio and a bit about me.
 
 ## Tech
 
-React | Tailwind CSS | SCSS | Nelify | Figma
+React | Tailwind CSS | SCSS | Netlify | Figma
 
 ## Details
 
