@@ -11,7 +11,7 @@ import "../sass/Home.scss";
 function Home() {
   const [word, setWord] = React.useState("am a freelance web developer 👋");
   const words = [
-    "enjoy making out-of-the-box designs! 👽",
+    "enjoy creating out-of-the-box designs! 👽",
     "am a full stack software engineer 👾",
     "was born in Alaska 🏂",
     "have traveled to 12 countries ✈️ ",
@@ -30,17 +30,14 @@ function Home() {
       <section>
         <div className="home-container">
           <p>Welcome, I'm</p>
-          <h1>
-            <span className="orange">Chalon Lubin</span>
-          </h1>
+          <h1 className="orange">Chalon Lubin</h1>
           <h2>
             <span id="iAm">I {word}</span>
           </h2>
-            <h2 className="home-sub">
-              <br></br>I'm interested developing projects that solve real world
-              problems, improve lives, inspire creativity or that are simply
-              interesting.
-            </h2>
+          <h2 className="home-sub my-6">
+            I'm interested developing projects that solve real world problems,
+            improve lives, inspire creativity or that are simply interesting.
+          </h2>
         </div>
       </section>
     </div>

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "../sass/Footer.scss";
-import { RiLinkedinFill, RiGithubLine, RiTwitterLine } from "react-icons/ri";
+import { RiLinkedinFill, RiGithubLine} from "react-icons/ri";
+import { HiOutlineMail } from "react-icons/hi"
 
 function Footer() {
   return (
@@ -13,7 +14,7 @@ function Footer() {
           <RiGithubLine />
         </Link>
         <Link to="https://mailto:chalonlubin1@gmail.com">
-          <RiTwitterLine />
+          <HiOutlineMail />
         </Link>
       </footer>
     </div>

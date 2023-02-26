@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import Home from "./Home";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import Resume from "./Resume"
 import NotFound from "./NotFound";
 
 
@@ -24,6 +25,7 @@ function RouteList() {
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/skills" element={<Skills />} />
+      <Route path="/resume" element={<Resume />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

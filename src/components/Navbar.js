@@ -20,7 +20,8 @@ function Navbar() {
             <NavLink to="/contact">Contact</NavLink>
           </li>
           <li>
-          <a href="Resume.pdf" target="_blank">Resume</a>
+            <NavLink to="/resume">Resume</NavLink>
+          {/* <a href="Resume.pdf" target="_blank">Resume</a> */}
           </li>
         </ul>
       </nav>
