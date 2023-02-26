@@ -1,5 +1,5 @@
 import React from "react";
-import { toast } from "react-toastify"
+import { toast } from "react-toastify";
 
 /** Contact Page: Contains form for contact
  *
@@ -9,15 +9,19 @@ import { toast } from "react-toastify"
  * App --> RouteList --> Contact
  */
 function Contact() {
-  const [formData, setFormData] = React.useState({name: "", email: "", message: ""});
+  const [formData, setFormData] = React.useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
-    /** Update form data field */
-    function handleChange(evt) {
-      const { name, value } = evt.target;
-      setFormData((f) => ({ ...f, [name]: value }));
-    }
+  /** Update form data field */
+  function handleChange(evt) {
+    const { name, value } = evt.target;
+    setFormData((f) => ({ ...f, [name]: value }));
+  }
 
-    /** Handle form submission:
+  /** Handle form submission:
    * - try to send message via Nelify
    *    - if sent, show success message
    *    - if fails, show error message
@@ -27,48 +31,67 @@ function Contact() {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: { "form-name": "contact", "name": formData.name, "email": formData.email, "message": formData.message },
+      body: {
+        "form-name": "contact",
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      },
     })
-      .then(() => toast('Message Received!', {
-        position: "bottom-left",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-        }))
+      .then(() =>
+        toast("Message Received!", {
+          position: "bottom-left",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        })
+      )
 
-      .catch((error) => toast('Failed to send message', {
-        position: "bottom-left",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-        }));
+      .catch((error) =>
+        toast("Failed to send message", {
+          position: "bottom-left",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        })
+      );
 
-      e.target.reset()
+    e.target.reset();
   }
 
   return (
-    <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+    <div className="container px-5 py-10 mx-auto flex md:flex-nowrap flex-wrap">
+      <div className="hidden sm:block w-full lg:w-1/2 md:w-1/3 bg-gray-900 rounded-lg overflow-hidden md:mr-12 py-60 mt-10 relative">
+        <iframe
+          width="100%"
+          height="100%"
+          title="map"
+          className="absolute inset-0"
+          style={{ filter: "opacity(0.9)" }}
+          src="https://www.google.com/maps/embed/v1/place?q=Bend,+OR,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+        />
+      </div>
       <form
         netlify
         name="contact"
         onSubmit={handleSubmit}
-        className="lg:w-1/2 md:w-2/3 flex flex-col md:mr-auto w-full md:py-8 mt-8 md:mt-0"
+        className="lg:w-1/2 md:w-2/3 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
       >
         <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
           Get in Touch
         </h2>
         <p className="leading-relaxed mb-5">
-          Want to hire me or collaborate on a project? Have you found a bug?
-          Want to set up a coffee chat? Great! Fill out the form below, and I'll
-          get back to you within 48 hours.
+          Want to hire me or collaborate on a project? Or would you like to set
+          up a coffee chat? Just want to chat? Great! Fill out the form below,
+          and I'll get back to you within 48 hours.
         </p>
         <div className="relative mb-4">
           <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -115,16 +138,6 @@ function Contact() {
           Submit
         </button>
       </form>
-      <div className="lg:w-1/2 md:w-1/3 bg-gray-900 rounded-lg overflow-hidden sm:ml-12 mt-10 p-5 relative">
-        <iframe
-          width="100%"
-          height="100%"
-          title="map"
-          className="absolute inset-0"
-          style={{ filter: "opacity(0.9)" }}
-          src="https://www.google.com/maps/embed/v1/place?q=Bend,+OR,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-        />
-      </div>
     </div>
   );
 }
