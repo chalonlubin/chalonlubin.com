@@ -15,6 +15,8 @@ function Home() {
     "am a full stack software engineer 👾",
     "was born in Alaska 🏂",
     "have traveled to 12 countries ✈️ ",
+    "I have pet a moose",
+    "I have seen the northern lights!"
   ];
 
   /** Changes word phrase every 2.5 seconds, randomly. */
@@ -35,7 +37,7 @@ function Home() {
             <span id="iAm">I {word}</span>
           </h2>
           <h2 className="home-sub my-6">
-            I'm interested developing projects that solve real world problems,
+            I'm interested in developing projects that solve real world problems,
             improve lives, inspire creativity or that are simply interesting.
           </h2>
         </div>
