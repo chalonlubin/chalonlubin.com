@@ -10,8 +10,8 @@ export const projects = [
     title: "Warbler",
     description: "Python | Flask | Postgres | SQLAlchemy | JavaScript | Bootstrap",
     image: "images/warbler-demo.gif",
-    link: "https://warbler-nm.onrender.com/",
-    github: "https://github.com/chalonlubin/warbly",
+    link: "https://the-warbler.onrender.com/",
+    github: "https://github.com/chalonlubin/warbler/tree/old",
   },
   {
     title: "Jobly",
@@ -25,7 +25,7 @@ export const projects = [
     description: "React | Tailwind | Scss ",
     image: "images/chalon1.png",
     link: "https://chalonlubin.com",
-    github: "https://github.com/chalonlubin/chalonlubin.github.io/tree/v3",
+    github: "https://github.com/chalonlubin/portfolio",
   },
 ];
 

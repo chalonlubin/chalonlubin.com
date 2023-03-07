@@ -15,7 +15,6 @@ function Home() {
     "am a full stack software engineer 👾",
     "was born in Alaska 🏂",
     "have traveled to 12 countries ✈️ ",
-    "I have pet a moose",
     "I have seen the northern lights!"
   ];
 
