@@ -16,12 +16,15 @@ function About() {
           <p className="text-base text-gray-50">
             I'm an Alaskan born full-stack software engineer, currently living
             in <b>Bend, OR.</b> I first became interested in coding in{" "}
-            <b>March 2022</b>, after a friend of mine wrote a program to scan a
-            video game auction house for deals, and buy automatically. He showed
-            me what he did, and I found that fascinating. He was employed as a
-            senior dev, took me under his wing and suggested some great learning
-            materials. I became hooked! Since then, I have graduated from a full
-            stack software engineering bootcamp
+            <b>March 2022</b>, after a friend of mine explained how he wrote a
+            program that solved an issue at work. He showed me what he did, and
+            I found that fascinating. He had over a decade of experience under
+            his belt, and offered mentorship. I took him up on it, and shortly
+            became hooked! As I was self studying, I was finding I wanted a more
+            structured learning experience, where I could collaborate with other
+            programers. I decided to take the leap, and commit to a full time
+            coding bootcamp. After 6 months of 50-60 hours a week of hard studying,
+            I graduated from a full stack software engineering bootcamp
             <a className="text-orange-300" href="https://www.rithmschool.com/">
               {" "}
               Rithm School,{" "}
@@ -29,11 +32,16 @@ function About() {
             and have started building real-world projects to keep myself sharp.
             <br></br>
             <br></br>
-            I enjoy coding because it is a creative outlet for me. I love
-            the challenge of solving problems and opportunity to participate in
-            an industry that changes drastically each year. <u>I am thrive in
+            I really enjoy coding because it is a wonderful creative outlet that
+            has no limit on how far you can progress in skill.
+            I am a curious, tinkering individual that loves measurable progression.
+            The field of software engineering evolves so quickly that there will
+            always be something to learn and ways to improve yourself, and for me
+            that is perfect.
+            I love the challenge of solving problems and potential ability to
+            improve processes at scale.I am thrive in
             environments that allow me to improve myself regularly, make
-            tangible progress towards goals, and have variety in everyday work.</u>
+            tangible progress towards goals, and have variety in everyday work.
             <br></br>
             <br></br>When I'm not coding, I like to spend to my time outdoors.
             Summers I can be found hiking, biking, fishing, or camping. Granted,
