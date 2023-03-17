@@ -9,13 +9,12 @@ import "../sass/Home.scss";
  * App --> RouteList --> Home
  */
 function Home() {
-  const [word, setWord] = React.useState("am a freelance web developer 👋");
+  const [word, setWord] = React.useState("am a full stack software engineer 👋");
   const words = [
     "enjoy creating out-of-the-box designs! 👽",
-    "am a full stack software engineer 👾",
+    "build web applications for fun!",
     "was born in Alaska 🏂",
     "have traveled to 12 countries ✈️ ",
-    "I have seen the northern lights!"
   ];
 
   /** Changes word phrase every 2.5 seconds, randomly. */
