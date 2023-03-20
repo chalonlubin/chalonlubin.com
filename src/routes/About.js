@@ -1,4 +1,3 @@
-import "../sass/About.scss";
 
 /** About
  *

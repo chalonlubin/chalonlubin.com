@@ -1,43 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 // Nav Bar Container
 .header-nav {
+  background-color: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-shadow: 1px 1px 2px rgb(88, 250, 158), 0 0 25px rgb(251, 175, 94), 0 0 5px rgb(0, 0, 0);
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
   .logo {
-    width: 20%;
-    height: 15%;
-    opacity: 60%;
-    &:hover {
-      opacity: 100%;
-      transition: opacity 0.4s;
-    }
+    width: 25%;
+    height: 25%;
   }
   .nav-list {
     display: flex;
     flex-direction: row;
-    margin: 0 0 0 32px;
-    line-height: 1.2;
+    margin: 0 0 0 1rem;
+    line-height: 1.2rem;
   }
   a {
-  margin: 0px 16px 0px 16px;
-  font-weight: bold;
-  text-transform: uppercase;
+  margin: 0px 1rem 0px 1rem;
   text-decoration: none;
-transition: color 0.3s;
+  transition: color 0.3s;
   &:hover {
-    color: rgb(251, 175, 94);
-    text-shadow: 0 0 2px rgb(247, 199, 245);
+    color: rgb(248, 55, 55);
+    text-shadow: 0 0 2px rgb(68, 246, 234);
     transition: color text-shadow 0.6s;
 
   }
   }
   .active {
-    color: rgb(243, 190, 245);
+    color: rgb(68, 246, 234);
     text-decoration: none;
     transition: color 0.6s;
-    text-decoration: underline;
+    text-shadow: .10rem .10rem  rgb(248, 55, 55);
   }
 }
 

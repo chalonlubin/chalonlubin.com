@@ -12,13 +12,10 @@ function Skills() {
   return (
     <div className="container px-4 py-10 mx-auto">
       <div className="text-center my-8">
-        <HiChip className="h-10 w-10 inline-block mb-4" />
+
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
           Skills &amp; Technologies
         </h1>
-        <p className="text-base leading-relaxed text-lg xl:w-2/4 lg:w-3/4 mx-auto">
-          Technologies I have worked with recently
-        </p>
       </div>
       <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         {skills.map((skill) => (

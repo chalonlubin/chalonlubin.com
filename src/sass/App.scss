@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 // DEFAULTS
 html,
@@ -151,27 +151,10 @@ html {
   min-height: 100%;
 }
 body {
-  font-family: "Poppins", sans-serif;
   line-height: 1.75;
-  background-color: #02296cfb;
-  // background-image: url("https://media0.giphy.com/media/UTHFuyuMENren9AI9b/giphy.gif?cid=ecf05e47lj3z7xlteamxpcy07xulve03wupmdehhkukehvyb&rid=giphy.gif&ct=g");
-  // background-image: url("https://media4.giphy.com/media/Y3MLVPRtnzpbygOqef/giphy.gif?cid=ecf05e47owanc0xp7ksshx8g7lb8x2atvz7pa10x9jt69r5t&rid=giphy.gif&ct=g");
-  background-image: url("../assets/snowmount.jpg");
+  background-image: url("../assets/trees.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: papayawhip;
-  margin: 1% auto 1% auto;
-  width: 100vw;
+  color: white;
 }
-
-
-
-// SECTIONS
-section {
-  margin: 80px 0px 80px 0px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 32px 32px;
-}
-

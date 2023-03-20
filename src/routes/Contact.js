@@ -89,8 +89,7 @@ function Contact() {
           Get in Touch
         </h2>
         <p className="leading-relaxed mb-5">
-          Want to hire me or collaborate on a project? Or would you like to set
-          up a coffee chat? Just want to chat? Great! Fill out the form below,
+          Would you like to connect? Great! Fill out the form below,
           and I'll get back to you within 48 hours.
         </p>
         <div className="relative mb-4">
