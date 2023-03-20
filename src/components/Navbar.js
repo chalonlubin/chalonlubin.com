@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "../sass/Navbar.scss";
 
-
 /** Navbar renders the navbar header.
  *
  * Props: none
@@ -10,10 +9,12 @@ import "../sass/Navbar.scss";
  * App -> Navbar
  */
 function Navbar() {
-
   return (
-    <header className="header-nav text-md md:text-2xl flex-col sm:flex-row w-full flex-wrap items-center justify-between mt-5">
-      <NavLink className="logo hidden sm:block mx-2 mr-1 flex flex-none items-center" to="/"><img src="images/Logo4.png" alt="Chalon's custom logo"></img></NavLink>
+    <header className="header-nav">
+      <NavLink className="logo" to="/">
+        <img src="images/Logo4.png" alt="Chalon's custom logo" className="logo-image"></img>
+      <p>// Chalon.dev</p>
+      </NavLink>
       <nav>
         <ul className="nav-list">
           <li>
@@ -38,3 +39,19 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
+
+{/* <div className="navbar bg-base-100">
+  <div className="flex-1">
+    <a className="btn btn-ghost normal-case text-xl">// Chalon.dev</a>
+  </div>
+  <div className="flex-none">
+    <ul className="menu menu-horizontal px-1">
+      <li><a>Item 1</a></li>
+
+      </li>
+      <li><a>Item 3</a></li>
+    </ul>
+  </div>
+</div> */}

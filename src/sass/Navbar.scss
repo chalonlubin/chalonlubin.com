@@ -4,18 +4,26 @@
 .header-nav {
   background-color: none;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   font-family: 'Lobster', cursive;
-  font-size: 2rem;
+  font-size: 1.55rem;
+  white-space: nowrap;
   .logo {
-    width: 25%;
-    height: 25%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .logo-image {
+    width: 35%;
+    height: 35%;
+    margin: 0 5%;
   }
   .nav-list {
     display: flex;
     flex-direction: row;
-    margin: 0 0 0 1rem;
+    margin: 1rem;
     line-height: 1.2rem;
   }
   a {
