@@ -13,7 +13,7 @@ function Footer() {
         <Link to="https://github.com/chalonlubin">
           <RiGithubLine />
         </Link>
-        <Link to="https://mailto:chalonlubin1@gmail.com">
+        <Link to="https://mailto:chalonlubin.dev@gmail.com">
           <HiOutlineMail />
         </Link>
       </footer>
