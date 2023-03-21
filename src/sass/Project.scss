@@ -1,0 +1,17 @@
+@import "_variables.scss";
+
+.project-title {
+  font-family: $lobster-font;
+  font-size: 1.75rem;
+}
+
+.project-tech {
+  font-family: $lobster-font;
+  margin: 1%;
+}
+
+.project-description {
+  font-family: $oswald;
+  font-size: 1.25rem;
+  padding-top: 1rem;
+}
