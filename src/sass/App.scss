@@ -154,9 +154,14 @@ html, body {
   background-repeat: no-repeat;
   color: white;
   font-family: $oswald;
+  font-size: 1rem;
+  @media screen and (max-width: 780px){
+    font-size: .65rem;
+  }
 }
 
 .App {
   min-height: 100%;
-  padding-bottom: 2%;
+  padding: 2% 0 2% 0;
 }
+

@@ -10,29 +10,37 @@
   font-family: 'Lobster', cursive;
   font-size: 1.55rem;
   white-space: nowrap;
-  .logo {
+  @media screen and (max-width: 780px){
+    justify-content: center;
+  }
+  .logo, p {
     align-items: center;
     display: flex;
     flex-direction: row;
+    @media screen and (max-width: 780px){
+      display: none;
+    }
   }
   .logo-image {
-    width: 35%;
-    height: 35%;
+    max-width: 30%;
+    height: 30%;
     margin: 0 5%;
+
   }
+
   .nav-list {
     display: flex;
     flex-direction: row;
     margin: 1rem;
     line-height: 1.2rem;
   }
-  a {
+  a, p {
   margin: 0px 1rem 0px 1rem;
   text-decoration: none;
   transition: color 0.3s;
   &:hover {
-    color: rgb(248, 55, 55);
-    text-shadow: 0 0 2px rgb(68, 246, 234);
+    color: rgb(68, 246, 234);
+    text-shadow: 0 0 2px rgb(248, 55, 55);
     transition: color text-shadow 0.6s;
 
   }

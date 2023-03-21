@@ -12,8 +12,12 @@ function Navbar() {
   return (
     <header className="header-nav">
       <NavLink className="logo" to="/">
-        <img src="images/Logo4.png" alt="Chalon's custom logo" className="logo-image"></img>
-      <p>// Chalon.dev</p>
+        <img
+          src="images/Logo4.png"
+          alt="Chalon's custom logo"
+          className="logo-image"
+        ></img>
+        <p>// Chalon.dev</p>
       </NavLink>
       <nav>
         <ul className="nav-list">
@@ -40,9 +44,8 @@ function Navbar() {
 
 export default Navbar;
 
-
-
-{/* <div className="navbar bg-base-100">
+{
+  /* <div className="navbar bg-base-100">
   <div className="flex-1">
     <a className="btn btn-ghost normal-case text-xl">// Chalon.dev</a>
   </div>
@@ -54,4 +57,5 @@ export default Navbar;
       <li><a>Item 3</a></li>
     </ul>
   </div>
-</div> */}
+</div> */
+}
