@@ -1,13 +1,13 @@
 // Footer Container
 .footer-container {
-  // position: fixed;
-  // bottom: 0;
-  // width: 100vw;
-  // height: 5%;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 6%;
   background-color: black;
-  // display: flex;
-  flex: 1 1 auto;
+  display: flex;
 }
+
 // Footer and Icon Styling
 .footer {
   display: flex;
