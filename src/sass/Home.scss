@@ -2,6 +2,7 @@
 
 .home {
   text-align: center;
+
   p {
     font-size: 1.5rem;
     font-weight: bold;
@@ -14,7 +15,11 @@
     font-weight: bold;
   }
   .home-container {
-    padding-top: 10%;
+    padding: 13rem 5rem 13rem 5rem;
+    // margin-bottom: 7%;
+    @media screen and (max-width: 780px){
+      padding: 10rem 2rem 10rem 2rem;
+    }
   }
   #typewriter {
     font-size: 1.75rem;
@@ -22,15 +27,14 @@
 }
 
 .logo b {
-  // font: 400 19vh "Vibur";
   color: #fee;
-  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em $color-red, 0 0 0.5em $color-red, 0 0 0.1em $color-red, 0 10px 3px #000;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em $color-red, 0 0 0.5em $color-red, 0 0 0.1em $color-red, 0 10px 3px #000000;
 }
 .logo b span {
-  animation: blink linear infinite 2s;
+  animation: blink linear infinite 2.5s;
 }
 .logo b span:nth-of-type(2) {
-  animation: blink linear infinite 3s;
+  animation: blink linear infinite 3.5s;
 }
 @keyframes blink {
   78% {
@@ -65,23 +69,3 @@
   }
 }
 
-// #typewriter {
-//   background-image: linear-gradient(-225deg, #f7cbf7 0%, #c3f6dc 29%, #22f7c2 67%, #ffdb66 100%);
-//   background-size: auto auto;
-//   background-clip: border-box;
-//   background-size: 200% auto;
-//   color: #fff;
-//   background-clip: text;
-//   text-fill-color: transparent;
-//   -webkit-background-clip: text;
-//   -webkit-text-fill-color: transparent;
-//   animation: textclip 2s linear infinite;
-//   display: inline-block;
-//   font-size: 32px;
-// }
-
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-}

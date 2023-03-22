@@ -147,10 +147,13 @@ select {
 html {
   margin: 0px;
   padding: 0px;
+  font-size: 18px;
+  @media screen and (max-width: 780px){
+    font-size: 15px;
+  }
 }
 
 body {
-  margin: 0px;
   padding: 2% 0px 2% 0px;
   line-height: 1.75;
   background-image: url("../assets/brick.jpg");
@@ -160,12 +163,11 @@ body {
   background-repeat: no-repeat;
   color:azure;
   font-family: $p-font;
-  font-size: 18px;
-  @media screen and (max-width: 780px){
-    font-size: 14px;
-  }
 }
 .App {
   min-height: 100vh;
+  min-width: 100vw;
+  max-width: min-content;
+  overflow: auto;
 }
 

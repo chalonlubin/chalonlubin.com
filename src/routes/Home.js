@@ -28,7 +28,6 @@ function Home() {
 
   return (
     <div className="home">
-      <section>
         <div className="home-container">
           <h1 className="logo">
             <b>
@@ -39,7 +38,7 @@ function Home() {
             </b>{" "}
             a full stack{" "}
             <b>
-              soft<span>ware</span> engin<span>ee</span>r
+              s<span>o</span>f<span>twa</span>re<span> eng</span>in<span>ee</span>r
             </b>{" "}
             in Bend, OR.
           </h1>
@@ -47,21 +46,20 @@ function Home() {
             <Typewriter
               options={{
                 strings: [
-                  "I enjoy bringing designs to life, from wire-frame to development.",
+                  "I enjoy bringing idea to life, from daydreams to product.",
                   "I value forward momentum equally as much as learning from failures.",
                   "I'm a builder (and breaker), both virtually and physically!",
                   "I have friends on pow days, sometimes.",
                 ],
                 autoStart: true,
                 loop: true,
-                pauseFor: 1000,
-                delay: 30,
-                deleteSpeed: 40,
+                pauseFor: 1500,
+                delay: 35,
+                deleteSpeed: 45,
               }}
             />
           </div>
         </div>
-      </section>
     </div>
   );
 }
