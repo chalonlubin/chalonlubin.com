@@ -1,8 +1,7 @@
 import Project from "../components/Project";
-import SmallProject from "..components/SmallProject"
+import SmallerProject from "../components/SmallerProject"
+import { projects, smallerProjects } from "../assets/data";
 import "../sass/Projects.scss";
-import { projects } from "../assets/data";
-import { smallProjects } from "../assets/data"
 
 /** Project Page: Contains information on recent projects.
  *
@@ -26,16 +25,18 @@ function Projects() {
           />
         ))}
       </div>
-      <h2>Smaller Projects</h2>
-      {smallProjects.map((project) => (
-        <SmallProject
+      <h2 className="text-center">Smaller Projects</h2>
+      <div className="projects-cards flex flex-wrap justify-evenly px-1">
+
+      {smallerProjects.map((project) => (
+        <SmallerProject
             tech={project.tech}
             title={project.title}
             goal={project.goal}
             github={project.github}
         />
       ))}
-
+    </div>
     </>
   );
 }

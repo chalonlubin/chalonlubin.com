@@ -8,14 +8,15 @@
 function About() {
   return (
     <div className="flex flex-wrap items-center justify-center m-5 p-5 mb-5">
-      <div class="card-bordered border-white rounded w-96 h-96">
+      <div class="border-2 rounded-full w-96 h-96">
           <img
             src="/images/chalon1.png"
             alt="Chalon"
+            className="rounded-full"
           />
       </div>
       <div className="my-5 p-5">
-        <p className="card-bordered border-black rounded text-lg bg-white text-black m-5 p-5">
+        <p className="card-bordered border-white rounded text-xl bg-gray-500 text-white m-5 p-5">
           I'm an Alaskan born full-stack software engineer, currently living in{" "}
           <b>Bend, OR.</b> I first became interested in coding in{" "}
           <b>March 2022</b>, after a friend of mine explained how he wrote a
@@ -27,7 +28,7 @@ function About() {
           programers. I decided to take the leap, and commit to a full time
           coding bootcamp. After 6 months of 50-60 hours a week of hard
           studying, I graduated from a full stack software engineering bootcamp
-          <a className="text-orange-300" href="https://www.rithmschool.com/">
+          <a className="text-red-300" href="https://www.rithmschool.com/">
             {" "}
             Rithm School,{" "}
           </a>

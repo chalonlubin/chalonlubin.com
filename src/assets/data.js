@@ -36,7 +36,7 @@ export const projects = [
   },
 ];
 
-export const smallProjects = [
+export const smallerProjects = [
   {
     title: "Rick and Morty Match",
     tech: "JavaScript, JQuerey",
@@ -44,13 +44,13 @@ export const smallProjects = [
     github: "https://github.com/chalonlubin/friender-frontend",
   },
   {
-    title: "Markov Machine",
+    title: "Meme Generator",
     tech: "JavaScript, Vanilla DOM manipulation",
     goal: "Practice complex logic in a mini game",
     github: "https://github.com/chalonlubin/friender-frontend",
   },
   {
-    title: "Advanced Studies",
+    title: "Advanced Concepts",
     tech: "JavaScript",
     goal: "Practice DSA in JavaScript",
     github: "https://github.com/chalonlubin/friender-frontend",
