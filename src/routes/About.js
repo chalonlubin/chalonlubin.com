@@ -16,7 +16,7 @@ function About() {
           />
       </div>
       <div className="my-5 p-5">
-        <p className="card-bordered border-white rounded text-xl bg-gray-500 text-white m-5 p-5">
+        <p className="card-bordered border-white rounded text-xl bg-gray-700 text-white m-5 p-5">
           I'm an Alaskan born full-stack software engineer, currently living in{" "}
           <b>Bend, OR.</b> I first became interested in coding in{" "}
           <b>March 2022</b>, after a friend of mine explained how he wrote a

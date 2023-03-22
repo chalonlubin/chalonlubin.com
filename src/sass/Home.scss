@@ -1,68 +1,87 @@
-  .home {
-    p {
-      font-size: 1.4em;
-      font-weight: bold;
-      grid-column: 1 / span 12;
-      text-align: center;
-      text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
-    }
-    h1 {
-    grid-column: 1 / span 12;
-    text-align: center;
-    font-size: 48px;
-    font-weight: 700;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+@import '_variables.scss';
+
+.home {
+  text-align: center;
+  p {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 3rem;
   }
   h2 {
-    grid-column: 1 / span 12;
-    text-align: center;
-    font-size: 22px;
+    font-size: 1.75rem;
     font-weight: bold;
-    // margin-bottom: 55%;
-  }
-  .home-sub {
-    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
-  }
-  .pink {
-    color: #fdccff;
-    text-decoration: underline;
-  }
-  .orange {
-    color: #fec700;
   }
   .home-container {
-    margin-top: 10%;
-    grid-column: 2 / span 10;
-    padding: auto;
+    padding-top: 10%;
+  }
+  #typewriter {
+    font-size: 1.75rem;
   }
 }
 
+.logo b {
+  // font: 400 19vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em $color-red, 0 0 0.5em $color-red, 0 0 0.1em $color-red, 0 10px 3px #000;
+}
+.logo b span {
+  animation: blink linear infinite 2s;
+}
+.logo b span:nth-of-type(2) {
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #333;
+  }
+  80% {
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
 
+// #typewriter {
+//   background-image: linear-gradient(-225deg, #f7cbf7 0%, #c3f6dc 29%, #22f7c2 67%, #ffdb66 100%);
+//   background-size: auto auto;
+//   background-clip: border-box;
+//   background-size: 200% auto;
+//   color: #fff;
+//   background-clip: text;
+//   text-fill-color: transparent;
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   animation: textclip 2s linear infinite;
+//   display: inline-block;
+//   font-size: 32px;
+// }
 
-#iAm {
-       text-transform: uppercase;
-      background-image: linear-gradient(
-        -225deg,
-        #f7cbf7 0%,
-        #c3f6dc 29%,
-        #22f7c2 67%,
-        #ffdb66 100%
-      );
-      background-size: auto auto;
-      background-clip: border-box;
-      background-size: 200% auto;
-      color: #fff;
-      background-clip: text;
-      text-fill-color: transparent;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: textclip 2s linear infinite;
-      display: inline-block;
-          font-size: 32px;
-    }
-
-    @keyframes textclip {
-      to {
-        background-position: 200% center;
-      }
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
