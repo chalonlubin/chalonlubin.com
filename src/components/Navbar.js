@@ -22,6 +22,9 @@ function Navbar() {
       <nav>
         <ul className="nav-list">
           <li>
+            <NavLink to="/home" className="home-link">Home</NavLink>
+          </li>
+          <li>
             <NavLink to="/about">About</NavLink>
           </li>
           <li>
@@ -43,19 +46,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-{
-  /* <div className="navbar bg-base-100">
-  <div className="flex-1">
-    <a className="btn btn-ghost normal-case text-xl">// Chalon.dev</a>
-  </div>
-  <div className="flex-none">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-
-      </li>
-      <li><a>Item 3</a></li>
-    </ul>
-  </div>
-</div> */
-}

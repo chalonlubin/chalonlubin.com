@@ -33,8 +33,11 @@
 .logo b span {
   animation: blink linear infinite 2.5s;
 }
-.logo b span:nth-of-type(2) {
-  animation: blink linear infinite 3.5s;
+.logo b span:nth-of-type(3) {
+  animation: blink linear infinite 4s;
+}
+.logo b span:nth-of-type(1) {
+  animation: blink linear infinite 2s;
 }
 @keyframes blink {
   78% {

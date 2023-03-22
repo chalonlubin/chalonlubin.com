@@ -10,21 +10,21 @@ import Typewriter from "typewriter-effect";
  * App --> RouteList --> Home
  */
 function Home() {
-  const [word, setWord] = React.useState("am a full stack software engineer");
-  const words = [
-    "I enjoy bringing designs to life, from wire-frame to development.",
-    "I value forward momentum equally as much as learning from failures.",
-    "I'm a builder (and breaker), both virtually and physically!",
-    "I have friends on pow days, sometimes.",
-  ];
+  // const [word, setWord] = React.useState("am a full stack software engineer");
+  // const words = [
+  //   "I enjoy bringing designs to life, from wire-frame to development.",
+  //   "I value forward momentum equally as much as learning from failures.",
+  //   "I'm a builder (and breaker), both virtually and physically!",
+  //   "I have friends on pow days, sometimes.",
+  // ];
 
-  /** Changes word phrase every 2.5 seconds, randomly. */
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setWord(words[Math.floor(Math.random() * words.length)]);
-    }, 2500);
-    return () => clearInterval(interval);
-  });
+  // /** Changes word phrase every 2.5 seconds, randomly. */
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setWord(words[Math.floor(Math.random() * words.length)]);
+  //   }, 2500);
+  //   return () => clearInterval(interval);
+  // });
 
   return (
     <div className="home">
@@ -46,7 +46,7 @@ function Home() {
             <Typewriter
               options={{
                 strings: [
-                  "I enjoy bringing idea to life, from daydreams to product.",
+                  "I enjoy bringing ideas to life, from daydreams to product.",
                   "I value forward momentum equally as much as learning from failures.",
                   "I'm a builder (and breaker), both virtually and physically!",
                   "I have friends on pow days, sometimes.",
