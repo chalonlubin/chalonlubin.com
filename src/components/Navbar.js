@@ -17,7 +17,7 @@ function Navbar() {
           alt="Chalon's custom logo"
           className="logo-image"
         ></img>
-        <p>// Chalon.dev</p>
+        <p> | Chalon.dev</p>
       </NavLink>
       <div className="hamburger dropdown">
         <label tabIndex={0} className="btn btn-ghost btn-circle">
