@@ -1,5 +1,3 @@
-"use strict";
-
 /** Holds various data that is used throughout the application, which remains static. */
 export const projects = [
   {
