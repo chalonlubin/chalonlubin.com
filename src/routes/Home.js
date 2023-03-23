@@ -47,7 +47,7 @@ function Home() {
                 strings: [
                   "I enjoy bringing ideas to life, from concept to product.",
                   "I value forward momentum equally as much as learning from failures. ",
-                  "I'm love building, both virtually and physically.",
+                  "I love building, both virtually and physically.",
                   "I have friends on pow days, sometimes.",
                 ],
                 autoStart: true,

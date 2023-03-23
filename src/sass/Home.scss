@@ -15,11 +15,9 @@
     font-weight: bold;
   }
   .home-container {
-    padding: 13rem 5rem 13rem 5rem;
+    padding: 33% 5% 33% 5%;
     // margin-bottom: 7%;
-    @media screen and (max-width: 780px){
-      padding: 5rem 2rem 5rem 2rem;
-    }
+
   }
   #typewriter {
     font-size: 1.75rem;
