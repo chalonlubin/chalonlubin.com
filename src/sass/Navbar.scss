@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import "_variables.scss";
 
 // Nav Bar Container
 .header-nav {
@@ -7,7 +7,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-family: "Lobster", cursive;
+  font-family: $lobster-font;
   font-size: 1.55rem;
   white-space: nowrap;
   .logo,
@@ -45,20 +45,20 @@
   }
   a,
   p {
-    margin: 0px .75rem 0px .75rem;
+    margin: 0px 0.75rem 0px 0.75rem;
     text-decoration: none;
     transition: color 0.3s;
     &:hover {
-      color: rgb(68, 246, 234);
-      text-shadow: 0 0 2px rgb(248, 55, 55);
+      color: $color-teal;
+      text-shadow: $color-red;
       transition: color text-shadow 0.6s;
     }
   }
   .active {
-    color: rgb(68, 246, 234);
+    color: $color-teal;
     text-decoration: none;
     transition: color 0.6s;
-    text-shadow: 0.1rem 0.1rem rgb(248, 55, 55);
+    text-shadow: 0.1rem 0.1rem $color-red;
   }
 
   @media screen and (max-width: 780px) {

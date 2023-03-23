@@ -30,7 +30,7 @@ export const projects = [
     tech: "React | Tailwind | Scss | DasiyUI",
     image: "images/chalon.png",
     github: "https://github.com/chalonlubin/portfolio",
-    description: "Wire-frame to Figma to what you see here, in a few days!",
+    description: "Wire-frame to Figma to what you see here!",
     details: ""
   },
 ];
@@ -39,20 +39,23 @@ export const smallerProjects = [
   {
     title: "Midnight Match",
     tech: "JavaScript, JQuerey",
-    description: "- Practice OOP and API calls",
+    description: "Practicing OOP and API calling",
     github: "https://github.com/chalonlubin/midnight-match",
+    link: "https://chalonlubin.github.io/midnight-match/"
   },
   {
-    title: "Meme Generator",
-    tech: "JavaScript, Vanilla DOM manipulation",
-    description: "- Practice with DOM manipulation",
-    github: "https://github.com/chalonlubin/meme-generator",
-  },
-  {
-    title: "Advanced Concepts",
+    title: "Rick and Morty Meme Generator...hic!",
     tech: "JavaScript",
-    description: "- Practice with DSA in JavaScript",
+    description: "Practice with DOM manipulation",
+    github: "https://github.com/chalonlubin/meme-generator",
+    link: "https://chalonlubin.github.io/meme-generator/"
+  },
+  {
+    title: "Conceptual Refreshment",
+    tech: "JavaScript",
+    description: "Practice with DSA, reviewing topics like 'this', and conceptual question review.",
     github: "https://github.com/chalonlubin/advanced-topics",
+    link: ""
   },
 ]
 
