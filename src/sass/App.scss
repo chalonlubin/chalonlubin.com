@@ -147,9 +147,9 @@ select {
 html {
   margin: 0px;
   padding: 0px;
-  font-size: 18px;
+  font-size: 17px;
   @media screen and (max-width: 780px){
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -165,9 +165,8 @@ body {
   font-family: $p-font;
 }
 .App {
-  min-height: 100vh;
-  min-width: 100vw;
-  max-width: min-content;
+  min-height: 95vh;
+  min-width: 95vw;
   overflow: auto;
 }
 

@@ -22,7 +22,7 @@ function Navbar() {
       <nav>
         <ul className="nav-list">
           <li>
-            <NavLink to="/home" className="home-link">Home</NavLink>
+            <NavLink to="/" className="home-link">Home</NavLink>
           </li>
           <li>
             <NavLink to="/about">About</NavLink>
