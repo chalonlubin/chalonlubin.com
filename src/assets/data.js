@@ -5,7 +5,7 @@ export const projects = [
     image: "images/friender-demo.gif",
     link: "https://friender-ccl.surge.sh/",
     github: "https://github.com/chalonlubin/friender-frontend",
-    description: "Full Stack Friend Matching App",
+    description: "Full-stack friend matching app",
   },
   {
     title: "Warbler",
@@ -13,7 +13,7 @@ export const projects = [
     image: "images/warbler-demo.gif",
     link: "https://warbler.up.railway.app/",
     github: "https://github.com/chalonlubin/warbler",
-    description: "Full Stack Social Media App",
+    description: "Full-stack social media app",
     details: ""
   },
   {
@@ -22,39 +22,38 @@ export const projects = [
     image: "images/jobly-demo.gif",
     link: "https://jobly-cl.netlify.app/",
     github: "https://github.com/chalonlubin/jobly-frontend",
-    description: "Full Stack Job Searching App",
+    description: "Full-stack job searching app",
     details: ""
   },
   {
     title: "Personal Website",
     tech: "React | Tailwind | Scss | DasiyUI",
-    image: "images/chalon1.png",
-    link: "https://chalonlubin.com",
+    image: "images/chalon.png",
     github: "https://github.com/chalonlubin/portfolio",
-    description: "What you see, now!",
+    description: "Wire-frame to Figma to what you see here, in a few days!",
     details: ""
   },
 ];
 
 export const smallerProjects = [
   {
-    title: "Rick and Morty Match",
+    title: "Midnight Match",
     tech: "JavaScript, JQuerey",
-    goal: "Practice OOP and Promises",
-    github: "https://github.com/chalonlubin/friender-frontend",
+    description: "- Practice OOP and API calls",
+    github: "https://github.com/chalonlubin/midnight-match",
   },
   {
     title: "Meme Generator",
     tech: "JavaScript, Vanilla DOM manipulation",
-    goal: "Practice complex logic in a mini game",
-    github: "https://github.com/chalonlubin/friender-frontend",
+    description: "- Practice with DOM manipulation",
+    github: "https://github.com/chalonlubin/meme-generator",
   },
   {
     title: "Advanced Concepts",
     tech: "JavaScript",
-    goal: "Practice DSA in JavaScript",
-    github: "https://github.com/chalonlubin/friender-frontend",
-  }
+    description: "- Practice with DSA in JavaScript",
+    github: "https://github.com/chalonlubin/advanced-topics",
+  },
 ]
 
 export const skills = [

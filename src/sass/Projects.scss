@@ -1,3 +1,9 @@
+@import "_variables.scss";
+
 .projects-cards {
-  margin: 5% 0px 5% 0px;
+  margin: 6% 0px 5% 0px;
+}
+.projects-title {
+  font-family: $lobster-font;
+  font-size: 2rem;
 }

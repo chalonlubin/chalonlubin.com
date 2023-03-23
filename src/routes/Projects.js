@@ -1,5 +1,4 @@
 import Project from "../components/Project";
-import SmallerProject from "../components/SmallerProject"
 import { projects, smallerProjects } from "../assets/data";
 import "../sass/Projects.scss";
 
@@ -25,18 +24,23 @@ function Projects() {
           />
         ))}
       </div>
-      <h2 className="text-center">Smaller Projects</h2>
+      <h2 className="projects-title text-center">Smaller Projects</h2>
       <div className="projects-cards flex flex-wrap justify-evenly px-1">
-
-      {smallerProjects.map((project) => (
-        <SmallerProject
-            tech={project.tech}
+        {smallerProjects.map((project) => (
+          <Project
             title={project.title}
-            goal={project.goal}
+            tech={project.tech}
+            description={project.description}
             github={project.github}
-        />
-      ))}
-    </div>
+          />
+        ))}
+      </div>
+      <div className="projects-extra pb-10 text-center">
+        <h2 className="projects-title text-center">Coming soon....</h2>
+        <h3>
+          Van conversion story with pictures, and a blurb about what I am working on now!{" "}
+        </h3>
+      </div>
     </>
   );
 }

@@ -1,3 +1,5 @@
+import "../sass/About.scss"
+
 /** About
  *
  *  Props: none
@@ -7,52 +9,31 @@
  */
 function About() {
   return (
-    <div className="flex flex-wrap items-center justify-center m-5 p-5 mb-5">
+    <div className="flex flex-col content-center items-center flex-wrap justify-center m-5 p-5 mb-5">
       <div class="border-2 rounded-full w-96 h-96">
           <img
-            src="/images/chalon1.png"
+            src="/images/chalon.png"
             alt="Chalon"
             className="rounded-full"
           />
       </div>
       <div className="my-5 p-5">
-        <p className="card-bordered border-white rounded text-xl bg-gray-700 text-white m-5 p-5">
-          I'm an Alaskan born full-stack software engineer, currently living in{" "}
-          <b>Bend, OR.</b> I first became interested in coding in{" "}
-          <b>March 2022</b>, after a friend of mine explained how he wrote a
-          program that solved an issue at work. He showed me what he did, and I
-          found that fascinating. He had over a decade of experience under his
-          belt, and offered mentorship. I took him up on it, and shortly became
-          hooked! As I was self studying, I was finding I wanted a more
-          structured learning experience, where I could collaborate with other
-          programers. I decided to take the leap, and commit to a full time
-          coding bootcamp. After 6 months of 50-60 hours a week of hard
-          studying, I graduated from a full stack software engineering bootcamp
-          <a className="text-red-300" href="https://www.rithmschool.com/">
-            {" "}
-            Rithm School,{" "}
-          </a>
-          and have started building real-world projects to keep myself sharp.
-          <br></br>
-          <br></br>I really enjoy coding because it is a wonderful creative
-          outlet that has no limit on how far you can progress in skill. I am a
-          curious, tinkering individual that loves measurable progression. The
-          field of software engineering evolves so quickly that there will
-          always be something to learn and ways to improve yourself, and for me
-          that is perfect. I love the challenge of solving problems and
-          potential ability to improve processes at scale.I am thrive in
-          environments that allow me to improve myself regularly, make tangible
-          progress towards goals, and have variety in everyday work.
-          <br></br>
-          <br></br>When I'm not coding, I like to spend to my time outdoors.
-          Summers I can be found hiking, biking, fishing, or camping. Granted,
-          in the winter, I spend most of my outdoor time snowboarding, but I do
-          enjoy playing video games, reading, and binging a good show or movie
-          here and there. Another passion of mine is traveling. Since I lived in
-          Australia, New Zealand, and spent six months backpacking across
-          Southeast Asia, I've developed a deep appreciation for diverse
-          cultures and experiences.
-        </p>
+        <div className="About-card card rounded bg-gray-900 text-white p-2 text-center">
+          <h2 className="About-title"> About Me</h2>
+          🏔️ Born and raised in Anchorage, Alaska. <br/>
+          👨‍💻 Full-stack software engineer with an equal love for both stacks.<br/>
+          ⚒️ I enjoy building, creating, and designing. <br/>
+          🧞‍♂️ My goal is to design and develop apps that solve interesting problems. <br/>
+          🚀 I live for progression and self improvement. <br/>
+          <br/>
+          <h2 className="About-title">Hobbies</h2>
+          🌊 Snowboarding & surfing<br/>
+          🏕️ Hiking, camping & backpacking<br/>
+          🥊 Muay Thai<br/>
+          👾 Video games. Fable, Diablo, Witcher are some of my all-time favorite series<br/>
+          🎹 Music. Love a good festival or concert. <br/>
+          🌎 Traveling. 12 countries down, many more to go.<br/>
+        </div>
       </div>
     </div>
   );

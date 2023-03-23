@@ -1,0 +1,10 @@
+@import '_variables.scss';
+
+.About-card {
+  font-size: 1.33rem;
+  font-family: $oswald;
+  .About-title {
+    font-size: 2rem;
+    font-family: $lobster-font;
+  }
+}
