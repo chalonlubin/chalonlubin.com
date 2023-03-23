@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import "../sass/Home.scss";
 import Typewriter from "typewriter-effect";
 

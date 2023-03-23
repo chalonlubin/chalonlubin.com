@@ -9,7 +9,6 @@ import "../sass/Navbar.scss";
  * App -> Navbar
  */
 function Navbar() {
-  function toggleNav() {}
   return (
     <header className="header-nav">
       <NavLink className="logo" to="/">

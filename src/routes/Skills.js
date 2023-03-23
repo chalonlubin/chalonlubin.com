@@ -1,6 +1,5 @@
 import { skills } from "../assets/data";
 import { BsCheckSquare } from "react-icons/bs";
-import { HiChip } from "react-icons/hi";
 
 /** Skills: Displays skills
  *
