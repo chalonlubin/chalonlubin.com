@@ -51,8 +51,6 @@ function About() {
           {" "}
           The logo is something I created in Figma. I thought it was a good
           representation of forward progress, momentum and a play with colors.
-          Initially I wanted to do something similar with a rolling snowball,
-          but I didn't quite enjoy just using white and felt it was unclear.
         </p>
       </div>
     </div>

@@ -1,3 +1,6 @@
+"use strict";
+
+/** Holds various data that is used throughout the application, which remains static. */
 export const projects = [
   {
     title: "Friender",
@@ -14,7 +17,7 @@ export const projects = [
     link: "https://warbler.up.railway.app/",
     github: "https://github.com/chalonlubin/warbler",
     description: "Full-stack social media app",
-    details: ""
+    details: "",
   },
   {
     title: "Jobly",
@@ -23,7 +26,7 @@ export const projects = [
     link: "https://jobly-cl.netlify.app/",
     github: "https://github.com/chalonlubin/jobly-frontend",
     description: "Full-stack job searching app",
-    details: ""
+    details: "",
   },
   {
     title: "Personal Website",
@@ -31,7 +34,7 @@ export const projects = [
     image: "images/chalon.png",
     github: "https://github.com/chalonlubin/portfolio",
     description: "Wire-frame to Figma to what you see here!",
-    details: ""
+    details: "",
   },
 ];
 
@@ -41,39 +44,47 @@ export const smallerProjects = [
     tech: "JavaScript, JQuerey",
     description: "Practicing OOP and API calling",
     github: "https://github.com/chalonlubin/midnight-match",
-    link: "https://chalonlubin.github.io/midnight-match/"
+    link: "https://chalonlubin.github.io/midnight-match/",
   },
   {
     title: "Rick and Morty Meme Generator...hic!",
     tech: "JavaScript",
     description: "Practice with DOM manipulation",
     github: "https://github.com/chalonlubin/meme-generator",
-    link: "https://chalonlubin.github.io/meme-generator/"
+    link: "https://chalonlubin.github.io/meme-generator/",
   },
   {
     title: "Conceptual Refreshment",
     tech: "JavaScript",
-    description: "Practice with DSA, reviewing topics like 'this', and conceptual question review.",
+    description:
+      "Practice with DSA, reviewing topics like 'this', and conceptual question review.",
     github: "https://github.com/chalonlubin/advanced-topics",
-    link: ""
+    link: "",
   },
-]
-
-export const skills = [
-  "JavaScript (ES6)",
-  "TypeScript",
-  "React",
-  "React Native",
-  "jQuery",
-  "Node.js",
-  "Express",
-  "Jest",
-  "Jasmine",
-  "SQL",
-  "Postgres",
-  "Python",
-  "Flask",
-  "SQLAlchemy",
-  "HTML5",
-  "CSS",
 ];
+
+export const skills = {
+  frontend: [
+    "javaScript",
+    "typescript",
+    "react",
+    "reactnative",
+    "jquery",
+    "html",
+    "css",
+    "figma",
+    "webflow",
+    "tailwind",
+    "bootstrap",
+    "sass",
+  ],
+  backend: ["nodejs", "express", "python", "flask"],
+  database: ["postgresql", "sql"],
+  tools: ["terminal", "jasmine", "jest", "insomnia"],
+  soft: ["Easygoing, positive and approachable",
+  "I try to find solutions instead of focusing on the negatives of a problem",
+  "I take initiative and am willing to do the “dirty work” that is less appealing",
+  "Leadership (I’ve been promoted to management positions in every job I’ve held over a year.)",  "Empathetic. Due to my background I find it easy to approach problems while wearing someone else's shoes.",
+  "Communication is huge, and I understand that not everyone has the same communication preferences, so I try to find what is ideal and communicate in that style with everyone I meet",
+]
+};
