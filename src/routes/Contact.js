@@ -88,7 +88,7 @@ function Contact() {
         <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
           Get in Touch
         </h2>
-        <p className="leading-relaxed mb-5">
+        <p className="leading-relaxed mb-5 bg-gray-800/75 rounded text-white p-2 text-xl">
           Would you like to connect? Great! Fill out the form below,
           and I'll get back to you within 48 hours.
         </p>

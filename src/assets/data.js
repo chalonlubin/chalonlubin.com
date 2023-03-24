@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: "Personal Website",
-    tech: "React | Tailwind | Scss | DasiyUI",
+    tech: "React | Tailwind | Scss | DaisyUI",
     image: "images/chalon.png",
     github: "https://github.com/chalonlubin/portfolio",
     description: "Wire-frame to Figma to what you see here!",
