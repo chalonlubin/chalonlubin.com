@@ -19,7 +19,7 @@ function Navbar() {
         ></img>
         <p> | Chalon.dev</p>
       </NavLink>
-      <div className="hamburger dropdown">
+      <div className="hamburger dropdown mx-5">
         <label tabIndex={0} className="btn btn-ghost btn-circle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ function Navbar() {
         </label>
         <ul
           tabIndex={0}
-          className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-gray-600 rounded-box w-52"
+          className=" dropdown-content flex flex-col mx-3 p-2 shadow bg-gray-900/90 rounded-box"
         >
           <li>
             <NavLink to="/" className="home-link">

@@ -51,20 +51,19 @@ function About() {
           <h2 className="About-title">Passions</h2>
           <ul>
             <li>
-              🖱️ Technology: I'm interested solving the worlds issues in an
+              🖱️ Technology: I'm interested in solving human issues in an
               efficient and creative way through use of software
             </li>
             <li>
-              👋 Social Work: I like empowering and providing assistance to
-              folks in need; specifically regarding troubled youth, financial
-              literacy, and mental wellness.
+              👋 Social Work: Empowering and providing assistance to
+              folks in need; specific interests include: mentorship for youth, financial
+              literacy for the public, & mental wellness.
             </li>
             <li>
-              🧠 Mindfulness: To me, this is betterment of self by cleaning the
-              mind
+              🧠 improvement: Reaching mental and physical goals
             </li>
             <li>
-              🐶 Animals: I foster dogs and dream of having a rescue someday
+              🦊 Animals: Owning a rescue is a dream of mine
             </li>
             <li>
               ♻️ Sustainability: I'm interested in vertical farming, wind
