@@ -19,9 +19,9 @@ React | Tailwind CSS | DaisyUI | SCSS | Netlify | Figma
 
 ## Details
 
-v1: Pure HTML /CSS 
-v2: Converted from JS/HTML/CSS to React. I also used Scss, along with Tailwind to assist with styling.and designed my own logos with Figma.
-v3: Updated styling, responsivness, and feel of site, along with content. Improved lighthouse score by 80% on desktop. 
+v1: Pure HTML /CSS \
+v2: Converted from JS/HTML/CSS to React. I also used Scss, along with Tailwind to assist with styling.and designed my own logos with Figma.\
+v3: Updated styling, responsivness, and feel of site, along with content. Improved lighthouse score by 80% on desktop. \
 
 An interesting note about this project is I treated it as if I was freelancing, so there is a wire-frame, moodboard, and mock-up in figma with multiple designs as to simulate working with a client. 
 
