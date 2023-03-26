@@ -1,4 +1,7 @@
+
 /** Holds various data that is used throughout the application, which remains static. */
+
+
 export const projects = [
   {
     title: "Friender",
@@ -29,7 +32,7 @@ export const projects = [
   {
     title: "Personal Website",
     tech: "React | Tailwind | Scss | DaisyUI",
-    image: "images/chalon.png",
+    image: "images/website.png",
     github: "https://github.com/chalonlubin/portfolio",
     description: "Wire-frame to Figma to what you see here!",
     details: "",
@@ -40,14 +43,14 @@ export const smallerProjects = [
   {
     title: "Midnight Match",
     tech: "JavaScript, JQuerey",
-    description: "Practicing OOP and API calling",
+    description: "Practice w/ OOP and API calls",
     github: "https://github.com/chalonlubin/midnight-match",
     link: "https://chalonlubin.github.io/midnight-match/",
   },
   {
     title: "Rick and Morty Meme Generator...hic!",
     tech: "JavaScript",
-    description: "Practice with DOM manipulation",
+    description: "Practice w/ DOM manipulation",
     github: "https://github.com/chalonlubin/meme-generator",
     link: "https://chalonlubin.github.io/meme-generator/",
   },
@@ -55,7 +58,7 @@ export const smallerProjects = [
     title: "Conceptual Refreshment",
     tech: "JavaScript",
     description:
-      "Practice with DSA, reviewing topics like 'this', and conceptual question review.",
+      "Practice w/ DSA, reviewing topics like 'this', and conceptual questions.",
     github: "https://github.com/chalonlubin/advanced-topics",
     link: "",
   },
@@ -79,6 +82,7 @@ export const skills = {
   backend: ["nodejs", "express", "python", "flask"],
   database: ["postgresql", "sql"],
   tools: ["terminal", "jasmine", "jest", "insomnia"],
+  /* Probably won't use. More for a "soft skills in plain english" resume format. */
   soft: ["Easygoing, positive and approachable",
   "I try to find solutions instead of focusing on the negatives of a problem",
   "I take initiative and am willing to do the “dirty work” that is less appealing",

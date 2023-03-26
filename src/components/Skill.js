@@ -5,17 +5,25 @@
  *
  * App --> RouteList --> Skills --> Skill
  */
-function Skill ({type, title}) {
+function Skill({ type, title }) {
   return (
     <>
-  <h2 className="sm:text-2xl text-xl text-black p-2 text-4xl">{title}: </h2>
-  <ul className="p-2 flex flex-row flex-wrap">
-          {type.map((skill, index) => (
-            <li className="p-3"><img src={`/images/skills/${skill}.svg`} alt={skill} width="50px" height="50px" key={index}/></li>
-          ))}
-        </ul>
-        </>
-  )
+      <h2 className="sm:text-2xl text-xl text-white p-2 text-4xl">{title}: </h2>
+      <ul className="p-2 flex flex-row flex-wrap">
+        {type.map((skill, index) => (
+          <li className="p-3">
+            <img
+              src={`/images/skills/${skill}.svg`}
+              alt={skill}
+              width="50px"
+              height="50px"
+              key={index}
+            />
+          </li>
+        ))}
+      </ul>
+    </>
+  );
 }
 
 export default Skill;

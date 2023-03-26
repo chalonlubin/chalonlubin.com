@@ -1,6 +1,6 @@
 @import "_variables.scss";
 
-// Nav Bar Container
+/* Navigation bar styling */
 .header-nav {
   background-color: none;
   display: flex;
@@ -10,6 +10,7 @@
   font-family: $heading-font;
   font-size: 1.80rem;
   white-space: nowrap;
+
   .logo,
   p {
     align-items: center;

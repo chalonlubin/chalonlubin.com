@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Montserrat:wght@400;600&family=Urbanist:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Montserrat:wght@400;600&family=Urbanist:wght@400;600&display=swap");
 
 $color-red: rgb(248, 55, 55);
 $color-teal: rgb(68, 246, 234);
 $color-grey: #131313;
-$heading-font: 'Lobster Two', cursive;
-$para-font: 'Urbanist', sans-serif;
-$sub-font: 'Montserrat', sans-serif;
+$heading-font: "Lobster Two", cursive;
+$para-font: "Urbanist", sans-serif;
+$sub-font: "Montserrat", sans-serif;
 
 @mixin center-content() {
   display: flex;

@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+
 import "../sass/Navbar.scss";
 
 /** Navbar renders the navbar header.
@@ -10,7 +11,7 @@ import "../sass/Navbar.scss";
  */
 function Navbar() {
   return (
-    <header className="header-nav">
+    <header className="header-nav px-5">
       <NavLink className="logo" to="/">
         <img
           src="images/logo.png"

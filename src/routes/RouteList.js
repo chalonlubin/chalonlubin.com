@@ -5,9 +5,8 @@ import Contact from "./Contact";
 import Home from "./Home";
 import Projects from "./Projects";
 import Skills from "./Skills";
-import Resume from "./Resume"
+import Resume from "./Resume";
 import NotFound from "./NotFound";
-
 
 /** Set up for routes in portfolio app
  *

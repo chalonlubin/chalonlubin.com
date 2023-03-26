@@ -1,4 +1,4 @@
-import "../sass/NotFound.scss"
+import "../sass/NotFound.scss";
 
 /** NotFound: 404 page render
  *

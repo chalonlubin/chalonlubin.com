@@ -17,17 +17,16 @@ function About() {
         <div className="About-card card rounded bg-gray-900 text-white p-2 text-center">
           <h2 className="About-title"> About Me</h2>
           <ul>
-            <li>🏔️ Born and raised in Anchorage, Alaska.</li>
-            <li>⚒️ I enjoy building, creating, and designing. </li>
+            <li>🏔️ Born and raised in Anchorage, Alaska</li>
+            <li>⚒️ I enjoy building, creating, and designing </li>
             <li>
-              👨‍💻 Full-stack software engineer with an equal love for both
-              stacks.
+              👨‍💻 Full-stack software engineer with an equal love for both stacks
             </li>
             <li>
               🧞‍♂️ My goal is to design and develop apps that solve interesting
-              problems.
+              problems, and make the world a bit better
             </li>
-            <li>🚀 I live for progression and self improvement.</li>
+            <li>🚀 I live for progression and self improvement</li>
           </ul>
 
           <h2 className="About-title">Hobbies</h2>
@@ -45,28 +44,29 @@ function About() {
             <li> 🌎 Traveling. 12 countries down, many more to go</li>
             <li>
               🏒 Sports. I played Hockey for 12 years, and love watching
-              basketball. Denver Nuggets!{" "}
+              basketball. Denver Nuggets!
             </li>
           </ul>
           <h2 className="About-title">Passions</h2>
           <ul>
             <li>
-              🖱️ Technology: I'm interested in solving human issues in an
+              🖥️ Technology: I'm interested in solving human issues in an
               efficient and creative way through use of software
             </li>
             <li>
-              👋 Social Work: Empowering and providing assistance to
-              folks in need; specific interests include: mentorship for youth, financial
-              literacy for the public, & mental wellness.
+              👋 Social Work: I spent 6 years working at non-profits before
+              entering tech; specific interests include: mentorship for youth,
+              financial literacy for the public, & mental wellness for all
+            </li>
+            <li>🧠 Self Improvement: Reaching mental and physical goals</li>
+            <li>
+              🦊 Animals: I've hung with elephants & tigers in Thailand,
+              kangaroos in Australia, moose in Alaska, and shared a fishing area
+              with a grizzly. I find them fascinating and would love to own a
+              rescue someday
             </li>
             <li>
-              🧠 improvement: Reaching mental and physical goals
-            </li>
-            <li>
-              🦊 Animals: Owning a rescue is a dream of mine
-            </li>
-            <li>
-              ♻️ Sustainability: I'm interested in vertical farming, wind
+              ♻️ Sustainability: Some interests include: vertical farming, wind
               turbines, re-purposing items & solar farms
             </li>
           </ul>

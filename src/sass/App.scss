@@ -1,6 +1,7 @@
-@import '_variables.scss';
+@import "_variables.scss";
 
-// DEFAULTS
+/* Boiler-plate settings to normalize browser views */
+
 html,
 body,
 div,
@@ -143,12 +144,13 @@ select {
   text-rendering: optimizeLegibility;
 }
 
-// GLOBAL
+/* Broad HTML & body / app container styling */
+
 html {
   margin: 0px;
   padding: 0px;
   font-size: 17px;
-  @media screen and (max-width: 780px){
+  @media screen and (max-width: 780px) {
     font-size: 14px;
   }
 }
@@ -156,12 +158,12 @@ html {
 body {
   padding: 2% 0px 2% 0px;
   line-height: 1.75;
-  background-image: url("../assets/trees.jpg");
+  background-image: url("../../public/images/trees.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  color:azure;
+  color: azure;
   font-family: $para-font;
 }
 .App {
@@ -169,4 +171,3 @@ body {
   min-width: 95vw;
   overflow: auto;
 }
-

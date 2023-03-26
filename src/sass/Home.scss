@@ -1,4 +1,6 @@
-@import '_variables.scss';
+@import "_variables.scss";
+
+/* Hero/Homepage styling */
 
 .home {
   width: 100%;
@@ -21,9 +23,11 @@
   }
 }
 
+/* Fluorescent effect */
 .logo b {
   color: #fee;
-  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em $color-red, 0 0 0.5em $color-red, 0 0 0.1em $color-red, 0 10px 3px #000000;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em $color-red, 0 0 0.5em $color-red, 0 0 0.1em $color-red,
+    0 10px 3px #000000;
 }
 .logo b span {
   animation: blink linear infinite 2.5s;
@@ -66,4 +70,3 @@
     text-shadow: inherit;
   }
 }
-

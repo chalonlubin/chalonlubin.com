@@ -1,5 +1,6 @@
 import Project from "../components/Project";
 import { projects, smallerProjects } from "../assets/data";
+
 import "../sass/Projects.scss";
 
 /** Project Page: Contains information on recent projects.
@@ -12,6 +13,7 @@ import "../sass/Projects.scss";
 function Projects() {
   return (
     <>
+      <h2 className="projects-title text-center">Larger Projects</h2>
       <div className="projects-cards flex flex-wrap justify-evenly px-1">
         {projects.map((project) => (
           <Project
@@ -36,10 +38,11 @@ function Projects() {
           />
         ))}
       </div>
-      <div className="projects-extra pb-10 text-center">
+      <div className="projects-extra mb-10 p-6 text-center">
         <h2 className="projects-title text-center">Coming soon....</h2>
         <h3>
-          Van conversion story with pictures, and a blurb about what I am working on now!{" "}
+          Van conversion story with pictures, and a blurb about what I am
+          working on now!{" "}
         </h3>
       </div>
     </>

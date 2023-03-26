@@ -1,5 +1,7 @@
 @import "_variables.scss";
 
+/* Project card & header styling */
+
 .project-title {
   font-family: $heading-font;
   font-size: 2rem;
@@ -10,11 +12,11 @@
   margin: 1%;
   padding: 2%;
   font-size: 1rem;
-  background-color: ivory;
+  background-color: #1c1c1c;
   box-shadow: 3px 2px 10px 2px black;
-  color: black;
-  border-radius: 20px;
-  opacity: 80%;
+  color: white;
+  border-radius: 10px;
+  opacity: 75%;
 }
 
 .project-description {
