@@ -1,41 +1,37 @@
-# Personal Website
-
-- https://chalonlubin.com
+# Portfolio Website
 
 My personal website showcasing my portfolio and a bit about me.
 
----
+[chalonlubin.com](https://chalonlubin.com), deployed with Netlify. 
 
-### To Run
 
-1. `git clone <link>`
-2. `npm install`
-3. `npm start`
-4. `npm test` for testing
+## 🧐 Motivation & Challenges
 
-## Tech
 
-React | Tailwind CSS | DaisyUI | SCSS | Netlify | Figma
+> In building this I wanted to build something in React quickly and have a bit of fun with the styling. An interesting note about this project is I treated it as if I was freelancing, so there is a wire-frame, moodboard, and mock-up in Figma with multiple designs as to simulate working with a client.
 
-## Details
+>I did face a few challenges as I took this as a learning opportunity to use DasiyUI, Tailwind and SCSS which I realized it would of been better to of stuck to just Tailwind or SCSS. Eventually I'll remove Tailwind and build purely on SCSS. I aimed to make a fully responsive site, however I limited myself to 3 days so there are still parts that I need to edit later, such as the background on mobile. Accessibility is a tough subject for this site as well, due to my color choices. 
 
-v1: Pure HTML /CSS \
-v2: Converted from JS/HTML/CSS to React. I also used Scss, along with Tailwind to assist with styling.and designed my own logos with Figma. \
-v3: Updated styling, responsivness, and feel of site, along with content. Improved lighthouse score by 80% on desktop. \
+## 💻 Tech Stack & Packages
 
-An interesting note about this project is I treated it as if I was freelancing, so there is a wire-frame, moodboard, and mock-up in figma with multiple designs as to simulate working with a client.
+**React | Tailwind CSS | DaisyUI | SCSS | Netlify | Figma**
 
-I did face a few challenges as I took this as a learning opporunity to use DasiyUI, tailwind and SCSS which I really just need SCSS or Tailwind. Eventually I'll remove Tailwind and build purley on SCSS. I'd like to utilize more react hooks and build complex features at a later time. I would also like to convert to Next.js on the next iteration.
+_react-dom | react-router-dom_
 
-## To Do
 
-- An interactive resume page
-- Light and dark mode
-- Optional music player
-- Loader component
-- SEO Considerations
-- Conversion to Typescript
-- Testing
+## 📦 Install & Run
+
+```shell
+
+--- clone repo ---
+cd into repo
+npm install
+npm start
+
+Will be running on localhost 3000.
+```
+
+## 👀 Diagrams 
 
 ## Figma
 ![Screenshot 2023-03-25 at 9 43 55 AM](https://user-images.githubusercontent.com/100496097/227730451-282e2aa2-e279-4afb-952a-586356dabb61.png)
@@ -47,10 +43,19 @@ I did face a few challenges as I took this as a learning opporunity to use Dasiy
 ![Screenshot 2023-03-25 at 9 44 46 AM](https://user-images.githubusercontent.com/100496097/227730498-65fafe14-fd92-44a8-9340-5bd406dde52d.png)
 
 
-### Thanks for stopping by!
+### ☑️ To-Do's
 
----
+- Add testing
+- Add an interactive resume page
+- Add a custom light and dark mode
+- Link to Spotify Profile
+- Loader component
+- SEO improvements
+- Conversion to Typescript
 
+## ⚖️ License
+
+```
 MIT License
 
 Copyright (c) [2023] [Chalon Lubin]
@@ -72,4 +77,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
 
