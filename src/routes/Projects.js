@@ -13,14 +13,14 @@ import "../sass/Projects.scss";
 function Projects() {
   return (
     <>
-      <div className="m-10 p-12">
-        <div className="About-card card rounded bg-gray-900/80 text-white p-2 text-center">
-          <h2 className="About-title"> A note on my projects: </h2>
+      <div className="mt-5 pt-5 flex justify-center">
+        <div className="About-card card w-2/3 rounded bg-gray-900/80 text-white p-1 text-center ">
+          <h2 className="About-title"> A quick note on my projects: </h2>
           <p>
             I write detailed github READMEs for all the projects listed where I
-            highlight features and details about the projects you may be
-            interested in. Please feel free to check them out if you'd like to
-            know more about what I built.
+            highlight features, motivations, and challenges, with the intent of
+            showing you lessons taken from each one. Please feel free to check
+            them out if you'd like to know more about what I built.
           </p>
         </div>
       </div>

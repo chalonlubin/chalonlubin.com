@@ -10,7 +10,7 @@ import "../sass/About.scss";
 function About() {
   return (
     <div className="flex flex-col content-center items-center flex-wrap justify-center m-5 p-5 mb-5">
-      <div class="border-2 rounded-full w-96 h-96">
+      <div className="border-2 rounded-full w-96 h-96">
         <img src="/images/chalon.png" alt="Chalon" className="rounded-full" />
       </div>
       <div className="my-5 p-5">

@@ -1,6 +1,4 @@
-
 /** Holds various data that is used throughout the application, which remains static. */
-
 
 export const projects = [
   {
@@ -73,20 +71,28 @@ export const skills = {
     "jquery",
     "html",
     "css",
+    "sass",
+  ],
+  backend: ["nodejs", "express", "python", "flask"],
+  database: ["postgresql", "sql", "mongoDB"],
+  tools: [
+    "terminal",
+    "jasmine",
+    "jest",
+    "insomnia",
+    "stripe",
     "figma",
     "webflow",
     "tailwind",
     "bootstrap",
-    "sass",
   ],
-  backend: ["nodejs", "express", "python", "flask"],
-  database: ["postgresql", "sql"],
-  tools: ["terminal", "jasmine", "jest", "insomnia"],
   /* Probably won't use. More for a "soft skills in plain english" resume format. */
-  soft: ["Easygoing, positive and approachable",
-  "I try to find solutions instead of focusing on the negatives of a problem",
-  "I take initiative and am willing to do the “dirty work” that is less appealing",
-  "Leadership (I’ve been promoted to management positions in every job I’ve held over a year.)",  "Empathetic. Due to my background I find it easy to approach problems while wearing someone else's shoes.",
-  "Communication is huge, and I understand that not everyone has the same communication preferences, so I try to find what is ideal and communicate in that style with everyone I meet",
-]
+  soft: [
+    "Easygoing, positive and approachable",
+    "I try to find solutions instead of focusing on the negatives of a problem",
+    "I take initiative and am willing to do the “dirty work” that is less appealing",
+    "Leadership (I’ve been promoted to management positions in every job I’ve held over a year.)",
+    "Empathetic. Due to my background I find it easy to approach problems while wearing someone else's shoes.",
+    "Communication is huge, and I understand that not everyone has the same communication preferences, so I try to find what is ideal and communicate in that style with everyone I meet",
+  ],
 };
