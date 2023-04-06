@@ -15,12 +15,12 @@ function About() {
       </div>
       <div className="my-5 p-5">
         <div className="About-card card rounded bg-gray-900 text-white p-2 text-center">
-          <h2 className="About-title"> About Me</h2>
+          <h2 className="About-title"> A bit about me</h2>
           <ul>
             <li>🏔️ Born and raised in Anchorage, Alaska</li>
             <li>⚒️ I enjoy building, creating, and designing </li>
             <li>
-              👨‍💻 Full-stack software engineer with an equal love for both stacks
+              👨‍💻 I'm a full-stack software engineer with an equal love for both stacks
             </li>
             <li>
               🧞‍♂️ My goal is to design and develop apps that solve interesting
@@ -32,22 +32,14 @@ function About() {
           <h2 className="About-title">Hobbies</h2>
           <ul>
             <li>🌊 Snowboarding & surfing</li>
-            <li>🏕️ Hiking, camping & backpacking</li>
+            <li>🏕️ Hiking, camping, biking, & backpacking</li>
             <li>🥊 Muay Thai</li>
             <li>
               👾 Video games. Fable, Skyrim, & Witcher are some of my all-time
               favorite series
             </li>
-            <li>
-              🎹 Music (I'm better at listening to it than I am making it)
-            </li>
-            <li> 🌎 Traveling. 12 countries down, many more to go</li>
-            <li>
-              🏒 Sports. I played Hockey for 12 years, and love watching
-              basketball. Denver Nuggets!
-            </li>
           </ul>
-          <h2 className="About-title">Passions</h2>
+          <h2 className="About-title">Interests</h2>
           <ul>
             <li>
               🖥️ Technology: I'm interested in solving human issues in an
@@ -59,16 +51,6 @@ function About() {
               financial literacy for the public, & mental wellness for all
             </li>
             <li>🧠 Self Improvement: Reaching mental and physical goals</li>
-            <li>
-              🦊 Animals: I've hung with elephants & tigers in Thailand,
-              kangaroos in Australia, moose in Alaska, and shared a fishing area
-              with a grizzly. I find them fascinating and would love to own a
-              rescue someday
-            </li>
-            <li>
-              ♻️ Sustainability: Some interests include: vertical farming, wind
-              turbines, re-purposing items & solar farms
-            </li>
           </ul>
         </div>
       </div>
@@ -82,8 +64,8 @@ function About() {
         <p>
           The logo is something I created in Figma. I thought it was a good
           representation of forward progress, momentum and a play with colors.
-          Initially I was going to go with a snowball, but I like color a bit
-          too much!
+          Initially I was going to go with a snowball building momentum, but I
+          like color a bit too much!
         </p>
       </div>
     </div>

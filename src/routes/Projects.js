@@ -13,7 +13,17 @@ import "../sass/Projects.scss";
 function Projects() {
   return (
     <>
-      <h2 className="projects-title text-center">Larger Projects</h2>
+      <div className="my-5 p-5">
+        <div className="About-card card rounded bg-gray-900/80 text-white p-2 text-center">
+          <h2 className="About-title"> My projects</h2>
+          <p>
+            I write detailed github READMEs for all the projects listed where I
+            highlight features and details about the projects you may be
+            interested in (motivation, to-dos, reflections, time). Please feel
+            free to check them out!
+          </p>
+        </div>
+      </div>
       <div className="projects-cards flex flex-wrap justify-evenly px-1">
         {projects.map((project) => (
           <Project
@@ -42,7 +52,7 @@ function Projects() {
         <h2 className="projects-title text-center">Coming soon....</h2>
         <h3>
           Van conversion story with pictures, and a blurb about what I am
-          working on now!{" "}
+          working on now...{" "}
         </h3>
       </div>
     </>

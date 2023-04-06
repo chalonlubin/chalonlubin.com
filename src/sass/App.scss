@@ -136,10 +136,8 @@ select {
   font: inherit;
 }
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased; // Correct the property name
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
@@ -153,21 +151,24 @@ html {
   @media screen and (max-width: 780px) {
     font-size: 14px;
   }
+
 }
 
 body {
+
   padding: 2% 0px 2% 0px;
   line-height: 1.75;
   background-image: url("../../public/images/trees.jpg");
+  background-color: black;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  color: azure;
+  color: rgb(255, 255, 255);
   font-family: $para-font;
 }
 .App {
   min-height: 95vh;
   min-width: 95vw;
-  overflow: auto;
+  overflow: none;
 }

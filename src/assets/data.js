@@ -22,7 +22,7 @@ export const projects = [
   },
   {
     title: "Jobly",
-    tech: "Node.js | Express | React | Bootstrap",
+    tech: "Node.js | Express | React | TypeScript | Bootstrap",
     image: "images/jobly-demo.gif",
     link: "https://jobly-cl.netlify.app/",
     github: "https://github.com/chalonlubin/jobly-frontend",
@@ -34,7 +34,7 @@ export const projects = [
     tech: "React | Tailwind | Scss | DaisyUI",
     image: "images/website.png",
     github: "https://github.com/chalonlubin/portfolio",
-    description: "Wire-frame to Figma to what you see here!",
+    description: "Wire-frame to Figma to what you see here",
     details: "",
   },
 ];
@@ -42,7 +42,7 @@ export const projects = [
 export const smallerProjects = [
   {
     title: "Midnight Match",
-    tech: "JavaScript, JQuerey",
+    tech: "JavaScript, jQuery",
     description: "Practice w/ OOP and API calls",
     github: "https://github.com/chalonlubin/midnight-match",
     link: "https://chalonlubin.github.io/midnight-match/",
@@ -58,7 +58,7 @@ export const smallerProjects = [
     title: "Conceptual Refreshment",
     tech: "JavaScript",
     description:
-      "Practice w/ DSA, reviewing topics like 'this', and conceptual questions.",
+      "Practice w/ DSA, reviewing topics like 'this', and conceptual questions",
     github: "https://github.com/chalonlubin/advanced-topics",
     link: "",
   },
