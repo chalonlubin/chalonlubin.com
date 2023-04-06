@@ -13,14 +13,14 @@ import "../sass/Projects.scss";
 function Projects() {
   return (
     <>
-      <div className="my-5 p-5">
+      <div className="m-10 p-12">
         <div className="About-card card rounded bg-gray-900/80 text-white p-2 text-center">
-          <h2 className="About-title"> My projects</h2>
+          <h2 className="About-title"> A note on my projects: </h2>
           <p>
             I write detailed github READMEs for all the projects listed where I
             highlight features and details about the projects you may be
-            interested in (motivation, to-dos, reflections, time). Please feel
-            free to check them out!
+            interested in. Please feel free to check them out if you'd like to
+            know more about what I built.
           </p>
         </div>
       </div>
@@ -33,6 +33,7 @@ function Projects() {
             image={project.image}
             link={project.link}
             github={project.github}
+            key={project.title}
           />
         ))}
       </div>
@@ -45,6 +46,7 @@ function Projects() {
             description={project.description}
             github={project.github}
             link={project.link}
+            key={project.title}
           />
         ))}
       </div>
@@ -52,7 +54,7 @@ function Projects() {
         <h2 className="projects-title text-center">Coming soon....</h2>
         <h3>
           Van conversion story with pictures, and a blurb about what I am
-          working on now...{" "}
+          working on now!{" "}
         </h3>
       </div>
     </>
