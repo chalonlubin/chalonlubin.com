@@ -10,11 +10,11 @@ import Skill from "../components/Skill";
  */
 function Skills() {
   return (
-    <div className="flex flex-col items-center p-5 m-5">
+    <div className="flex flex-col items-center m-5 mb-20">
       <div className="text-center my-8 py-5">
         <h1 className="text-5xl">Skills &amp; Technologies</h1>
       </div>
-      <div className="card flex flex-wrap flex-col shadow-lg shadow-black-500/50 flex-wrap bg-black/75 items-center">
+      <div className="card flex flex-wrap flex-col shadow-lg shadow-black-500/50 flex-wrap bg-black/75  items-center">
         <Skill type={skills.frontend} title="frontend"></Skill>
         <Skill type={skills.backend} title="backend"></Skill>
         <Skill type={skills.database} title="database"></Skill>

@@ -22,7 +22,7 @@ function Contact() {
   }
 
   /** Handle form submission:
-   * - try to send message via Nelify
+   * - try to send message via Netlify
    *    - if sent, show success message
    *    - if fails, show error message
    **/
@@ -68,29 +68,20 @@ function Contact() {
   }
 
   return (
-    <div className="container px-5 py-10 mx-auto flex md:flex-nowrap flex-wrap">
-      <div className="hidden sm:block w-full lg:w-1/2 md:w-1/3 bg-gray-900 rounded-lg overflow-hidden md:mr-12 py-60 mt-10 relative">
-        <iframe
-          width="100%"
-          height="100%"
-          title="map"
-          className="absolute inset-0"
-          style={{ filter: "opacity(0.9)" }}
-          src="https://www.google.com/maps/embed/v1/place?q=Bend,+OR,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-        />
-      </div>
+    <div className="m-10 flex justify-center">
+
       <form
         netlify
         name="contact"
         onSubmit={handleSubmit}
-        className="lg:w-1/2 md:w-2/3 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+        className="w-full md:w-2/3 flex flex-col"
       >
-        <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+        <h2 className="text-white text-2xl mb-1 font-medium title-font">
           Get in Touch
         </h2>
-        <p className="leading-relaxed mb-5 bg-gray-800/75 rounded text-white p-2 text-xl">
+        <p className="leading-relaxed mb-5 bg-gray-800/75 rounded text-white p-2 text-md">
           Would you like to connect? Great! Fill out the form below, and I'll
-          get back to you within 48 hours.
+          get back to you within 48 hours. Need to reach me quickly? E-mail me directly @ chalonlubin.dev@gmail.com
         </p>
         <div className="relative mb-4">
           <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -132,7 +123,7 @@ function Contact() {
         </div>
         <button
           type="submit"
-          className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+          className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-md"
         >
           Submit
         </button>

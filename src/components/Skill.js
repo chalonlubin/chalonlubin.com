@@ -9,7 +9,7 @@ function Skill({ type, title }) {
   return (
     <>
       <h2 className="sm:text-2xl text-xl text-white p-2 text-4xl">{title}: </h2>
-      <ul className="p-2 flex flex-row flex-wrap">
+      <ul className="p-2 flex flex-row flex-wrap justify-center">
         {type.map((skill, index) => (
           <li className="p-3">
             <img

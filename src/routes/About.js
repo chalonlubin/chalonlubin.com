@@ -20,7 +20,8 @@ function About() {
             <li>🏔️ Born and raised in Anchorage, Alaska</li>
             <li>⚒️ I enjoy building, creating, and designing </li>
             <li>
-              👨‍💻 I'm a full-stack software engineer with an equal love for both stacks
+              👨‍💻 I'm a full-stack software engineer with an equal love for both
+              stacks
             </li>
             <li>
               🧞‍♂️ My goal is to design and develop apps that solve interesting
@@ -43,12 +44,17 @@ function About() {
           <ul>
             <li>
               🖥️ Technology: I'm interested in solving human issues in an
-              efficient and creative way through use of software
+              efficient and creative way through the use of software
             </li>
             <li>
-              👋 Social Work: I spent 6 years working at non-profits before
-              entering tech; specific interests include: mentorship for youth,
-              financial literacy for the public, & mental wellness for all
+              👋 Social Issues: I spent 6 years working at non-profits before
+              entering tech; specific interests include: mentorship for troubled
+              youth, financial literacy for the public, & mental wellness for
+              all
+            </li>
+            <li>
+              🌎 Adventure: I traveled internationally for 3 years, spending
+              most of my time in hostels while living out of a backpack{" "}
             </li>
             <li>🧠 Self Improvement: Reaching mental and physical goals</li>
           </ul>
@@ -62,10 +68,10 @@ function About() {
           className="logo-image"
         ></img>
         <p>
-          The logo is something I created in Figma. I thought it was a good
-          representation of forward progress, momentum and a play with colors.
-          Initially I was going to go with a snowball building momentum, but I
-          like color a bit too much!
+          The logo is one of my first creations, made with Figma. I thought it
+          was a good representation of forward progress, momentum and a play
+          with colors. Initially I was going to go with a snowball building
+          momentum, but I ended up liking this version the best.
         </p>
       </div>
     </div>
