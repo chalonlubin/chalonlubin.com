@@ -69,22 +69,22 @@ function Contact() {
 
   return (
     <div className="m-10 flex justify-center">
-
       <form
         netlify
         name="contact"
         onSubmit={handleSubmit}
         className="w-full md:w-2/3 flex flex-col"
       >
-        <h2 className="text-white text-2xl mb-1 font-medium title-font">
+        <h2 className="text-black text-2xl mb-1 font-medium title-font">
           Get in Touch
         </h2>
-        <p className="leading-relaxed mb-5 bg-gray-800/75 rounded text-white p-2 text-md">
+        <p className="leading-relaxed mb-5 bg-white rounded text-black p-2 text-md">
           Would you like to connect? Great! Fill out the form below, and I'll
-          get back to you within 48 hours. Need to reach me quickly? E-mail me directly @ chalonlubin.dev@gmail.com
+          get back to you within 48 hours. Need to reach me quickly? E-mail me
+          directly @ chalonlubin.dev@gmail.com
         </p>
         <div className="relative mb-4">
-          <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+          <label htmlFor="name" className="leading-7 text-sm text-black">
             Name
           </label>
           <input

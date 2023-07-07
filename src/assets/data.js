@@ -46,17 +46,17 @@ export const smallerProjects = [
     link: "https://chalonlubin.github.io/midnight-match/",
   },
   {
-    title: "Rick and Morty Meme Generator...hic!",
+    title: "Meme Generator",
     tech: "JavaScript",
-    description: "Practice w/ DOM manipulation",
+    description: "Practice with DOM manipulation and vanilla JS",
     github: "https://github.com/chalonlubin/meme-generator",
     link: "https://chalonlubin.github.io/meme-generator/",
   },
   {
-    title: "Conceptual Refreshment",
+    title: "Conceptual Refreshers",
     tech: "JavaScript",
     description:
-      "Practice w/ DSA, reviewing topics like 'this', and conceptual questions",
+      "DSA, JavaScript, and React review",
     github: "https://github.com/chalonlubin/advanced-topics",
     link: "",
   },

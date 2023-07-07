@@ -10,10 +10,10 @@ import "../sass/Project.scss";
  */
 function Project({ title, description, tech, image, link, github }) {
   return (
-    <div className="rounded-lg shadow-lg bg-gray-900 m-4 w-80 text-center flex flex-col flex-wrap justify-center">
+    <div className="project-card rounded-lg shadow-lg bg-white text-black m-4 w-80 text-center flex flex-col flex-wrap justify-center">
       {image && (
         <img
-          className="rounded-t-lg max-w-xs opacity-25 hover:filter-none hover:opacity-100"
+          className="rounded-t-lg max-w-xs opacity-75 hover:filter-none hover:opacity-100"
           src={image}
           alt={title}
         />
