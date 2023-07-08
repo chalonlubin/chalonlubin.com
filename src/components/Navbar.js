@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
-
-import "../sass/Navbar.scss";
+import React, { useState } from "react";
 
 /** Navbar renders the navbar header.
  *
@@ -10,82 +9,142 @@ import "../sass/Navbar.scss";
  * App -> Navbar
  */
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <header className="header-nav px-5">
-      <NavLink className="logo" to="/">
+    <header className="bg-transparent flex justify-between items-center font-body text-xl py-2 px-4">
+      <NavLink className="flex items-center space-x-2" to="/">
         <img
           src="images/logo.png"
           alt="Chalon's custom logo"
-          className="logo-image"
-        ></img>
-        <p> | Chalon.dev</p>
+          className="w-20 h-auto"
+        />
+        <p className="text-lg"> | Chalon.dev</p>
       </NavLink>
-      <div className="hamburger dropdown mx-5">
-        <label tabIndex={0} className="btn btn-ghost btn-circle">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
+
+      {/* Hamburger Button */}
+      <div className="relative inline-block text-left md:hidden sm:inline-block">
+
+        <div>
+          <button
+            type="button"
+            className="hamburger-btn focus:outline-none"
+            onClick={toggleDropdown}
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M4 6h16M4 12h16M4 18h7"
-            />
-          </svg>
-        </label>
-        <ul
-          tabIndex={0}
-          className=" dropdown-content flex flex-col mx-3 p-2 shadow bg-gray-900/90 rounded-box"
-        >
-          <li>
-            <NavLink to="/" className="home-link">
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/about">About</NavLink>
-          </li>
-          <li>
-            <NavLink to="/projects">Projects</NavLink>
-          </li>
-          <li>
-            <NavLink to="/skills">Skills</NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact">Contact</NavLink>
-          </li>
-          <li>
-            <NavLink to="/resume">Resume</NavLink>
-          </li>
-        </ul>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+
+        {/* Dropdown Menu */}
+        {isOpen && (
+          <ul className="dropdown-content absolute right-0 mt-2 w-56 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100">
+            <li>
+              <NavLink
+                to="/"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/about"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              >
+                About
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/projects"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              >
+                Projects
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/skills"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              >
+                Skills
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/contact"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              >
+                Contact
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/resume"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              >
+                Resume
+              </NavLink>
+            </li>
+          </ul>
+        )}
       </div>
-      <nav>
-        <ul className="nav-list">
-          <li>
-            <NavLink to="/" className="home-link">
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/about">About</NavLink>
-          </li>
-          <li>
-            <NavLink to="/projects">Projects</NavLink>
-          </li>
-          <li>
-            <NavLink to="/skills">Skills</NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact">Contact</NavLink>
-          </li>
-          <li>
-            <NavLink to="/resume">Resume</NavLink>
-          </li>
-        </ul>
+
+      {/* Navbar Links */}
+      <nav className="hidden md:flex space-x-4">
+        <NavLink
+          to="/"
+          className="px-2 py-1 text-gray-700 hover:text-gray-900"
+        >
+          Home
+        </NavLink>
+        <NavLink
+          to="/about"
+          className="px-2 py-1 text-gray-700 hover:text-gray-900"
+        >
+          About
+        </NavLink>
+        <NavLink
+          to="/projects"
+          className="px-2 py-1 text-gray-700 hover:text-gray-900"
+        >
+          Projects
+        </NavLink>
+        <NavLink
+          to="/skills"
+          className="px-2 py-1 text-gray-700 hover:text-gray-900"
+        >
+          Skills
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className="px-2 py-1 text-gray-700 hover:text-gray-900"
+        >
+          Contact
+        </NavLink>
+        <NavLink
+          to="/resume"
+          className="px-2 py-1 text-gray-700 hover:text-gray-900"
+        >
+          Resume
+        </NavLink>
       </nav>
     </header>
   );

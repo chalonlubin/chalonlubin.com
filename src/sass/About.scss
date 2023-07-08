@@ -4,17 +4,22 @@
 
 .About-card {
   font-size: 1.25rem;
-  font-family: $para-font;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  box-shadow: 6px 6px  black;
+  transition: all .2s ease;
+
+  &:hover {
+    box-shadow: 2px 2px #272727;
+    transform: translate(5px, 5px);
+  }
+
   .About-title {
     font-size: 2rem;
     font-family: $heading-font;
   }
-  border: 5px solid black;
-  border-radius: 50px;
-  background-color: white;
-  color: black;
-  box-shadow: 5px 5px black;
-
 }
 .logo-image {
   max-width: 30%;

@@ -3,25 +3,18 @@ import { projects, smallerProjects } from "../assets/data";
 
 import "../sass/Projects.scss";
 
-/** Project Page: Contains information on recent projects.
- *
- *  Props: none
- *  State: none
- *
- * App --> RouteList --> Projects
- */
 function Projects() {
   return (
     <>
-      <div className="mt-5 pt-5 flex justify-center">
-        <div className="About-card card w-2/3 rounded p-1 text-center">
-          <h2 className="About-title"> A quick note on my projects: </h2>
-          <p>
-            I write detailed readmes for all the projects listed where I
-            share features, motivations, and challenges. If you'd like to know more, please click the github links below.
-          </p>
-        </div>
+      {/* Alert Banner */}
+      <div className="bg-green-200 py-2 px-10 text-black text-center">
+        <p className="mt-1">
+          I write detailed <span className="font-bold underline">readmes</span>,
+          check em out if you'd like to know more about my process!
+        </p>
       </div>
+
+      {/* Main Projects */}
       <div className="projects-cards flex flex-wrap justify-evenly px-1">
         {projects.map((project) => (
           <Project
@@ -35,6 +28,8 @@ function Projects() {
           />
         ))}
       </div>
+
+      {/* Lighter Projects */}
       <h2 className="projects-title text-center">Lighter Projects</h2>
       <div className="projects-cards flex flex-wrap justify-evenly px-1">
         {smallerProjects.map((project) => (

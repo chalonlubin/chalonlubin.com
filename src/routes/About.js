@@ -10,11 +10,11 @@ import "../sass/About.scss";
 function About() {
   return (
     <div className="flex flex-col content-center items-center flex-wrap justify-center m-5 p-5 mb-5">
-      <div className="border-2 rounded-full w-96 h-96">
-        <img src="/images/chalon.png" alt="Chalon" className="rounded-full" />
+      <div className="w-96 h-96">
+        <img src="/images/chalon.png" alt="Headshot of Chalon" className="rounded-full" />
       </div>
       <div className="my-5 p-5">
-        <div className="About-card card rounded bg-gray-900 text-white p-2 text-center">
+        <div className="About-card p-4 text-center">
           <h2 className="About-title"> About Me</h2>
           <ul>
             <li>🏔️ Born and raised in Anchorage, Alaska</li>

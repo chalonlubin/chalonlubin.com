@@ -1,13 +1,5 @@
 import "../sass/Project.scss";
 
-/** Project
- *
- * State: none
- * Props: data = {title, subtitle, image, link, github}
- *
- * App -> RouteList -> Projects -> Project
- *
- */
 function Project({ title, description, tech, image, link, github }) {
   return (
     <div className="project-card rounded-lg shadow-lg bg-white text-black m-4 w-80 text-center flex flex-col flex-wrap justify-center">
@@ -20,8 +12,8 @@ function Project({ title, description, tech, image, link, github }) {
       )}
       <div className="p-4 m-auto">
         <h2 className="project-title">{title}</h2>
-        <h3 className="project-tech">{tech}</h3>
         <h4 className="project-description">{description}</h4>
+        <h3 className="project-tech">{tech}</h3>
       </div>
       <div className="flex content-evenly m-auto">
         {link && (
