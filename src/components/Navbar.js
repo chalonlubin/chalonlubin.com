@@ -23,7 +23,6 @@ function Navbar() {
           alt="Chalon's custom logo"
           className="w-20 h-auto"
         />
-        <p className="text-lg"> | Chalon.dev</p>
       </NavLink>
 
       {/* Hamburger Button */}
