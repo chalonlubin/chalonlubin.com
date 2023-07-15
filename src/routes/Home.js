@@ -1,5 +1,4 @@
 import React from "react";
-import "../sass/Home.scss";
 import Typewriter from "typewriter-effect";
 
 function Home() {
@@ -7,10 +6,10 @@ function Home() {
     <div className="home-container flex flex-wrap items-center justify-center h-screen w-full">
       <div className="home-wrapper text-center p-5 mb-44 min-w-min">
         <p className="home-welcome text-lg mb-3">Welcome to my site 👋</p>
-        <h1 className="home-hero text-4xl mb-3 tracking-wider">
-          Hi! I'm Chalon
+        <h1 className="home-hero text-4xl mb-3 leading-10">
+          I'm Chalon,
           <br />A Full-Stack <br />
-          <span className="text-4xl mb-3 text-purple-700 font-bold">
+          <span className="text-4xl mb-3 text-purple-700 font-semibold">
             Software Engineer
           </span>
         </h1>

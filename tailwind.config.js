@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'ivory': 'ivory',
+        // Add your custom colors here
+        whitesmoke: "#f5f5f5",
       },
     },
   },
