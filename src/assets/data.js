@@ -2,25 +2,8 @@
 
 export const projects = [
   {
-    title: "Friender",
-    tech: "Node.js | Express | SQL | React | Bootstrap",
-    image: "images/friender-demo.gif",
-    link: "https://friender-ccl.surge.sh/",
-    github: "https://github.com/chalonlubin/friender-frontend",
-    description: "Full-stack friend matching app",
-  },
-  {
-    title: "Warbler",
-    tech: "Python | Flask | Postgres | SQLAlchemy | JavaScript | Bootstrap",
-    image: "images/warbler-demo.gif",
-    link: "https://warbler.up.railway.app/",
-    github: "https://github.com/chalonlubin/warbler",
-    description: "Full-stack social media app",
-    details: "",
-  },
-  {
     title: "Jobly",
-    tech: "Node.js | Express | React | TypeScript | Bootstrap",
+    tech: "#Node.js #Express #React #TypeScript #Bootstrap",
     image: "images/jobly-demo.gif",
     link: "https://jobly-cl.netlify.app/",
     github: "https://github.com/chalonlubin/jobly-frontend",
@@ -28,11 +11,29 @@ export const projects = [
     details: "",
   },
   {
+    title: "Friender",
+    tech: "#Node.js #Express #SQL #React #Bootstrap",
+    image: "images/friender-demo.gif",
+    link: "https://friender-ccl.surge.sh/",
+    github: "https://github.com/chalonlubin/friender-frontend",
+    description: "Full-stack friend matching app",
+  },
+  {
+    title: "Warbler",
+    tech: "#Python #Flask #Postgres #SQLAlchemy #JavaScript #Bootstrap",
+    image: "images/warbler-demo.gif",
+    link: "https://warbler.up.railway.app/",
+    github: "https://github.com/chalonlubin/warbler",
+    description: "Full-stack social media app",
+    details: "",
+  },
+
+  {
     title: "Personal Website",
-    tech: "React | Tailwind | Scss ",
+    tech: "#React #Tailwind #Sass ",
     image: "images/website.png",
     github: "https://github.com/chalonlubin/portfolio",
-    description: "Wire-frame to Figma to what you see here",
+    description: "Figma design to code",
     details: "",
   },
 ];

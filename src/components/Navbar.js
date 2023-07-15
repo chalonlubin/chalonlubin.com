@@ -45,7 +45,7 @@ function Navbar() {
             isOpen ? "shadow-lg" : ""
           } py-2 px-4 mt-2 lg:mt-0 lg:space-x-5`}
         >
-          <div className="text-sm lg:flex-grow space-y-2 lg:space-y-0 lg:space-x-5 lg:flex">
+          <div className="text-sm font-semibold lg:flex-grow space-y-2 lg:space-y-0 lg:space-x-5 lg:flex">
             <NavLink
               to="/about"
               className="block mt-4 lg:inline-block lg:mt-0 hover:text-purple-400 px-3 py-2 rounded"
@@ -74,7 +74,7 @@ function Navbar() {
           <div>
             <a
               href="#"
-              className="inline-block text-sm px-4 py-2 leading-none border rounded border-black hover:border-transparent hover:text-purple-500 hover:bg-white mt-4 lg:mt-0"
+              className="inline-block text-sm font-semibold px-4 py-2 leading-none border rounded border-black hover:border-purple-500 hover:text-purple-500 mt-4 lg:mt-0"
             >
               Resume
             </a>

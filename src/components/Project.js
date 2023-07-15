@@ -18,11 +18,11 @@ function Project({ title, description, tech, image, link, github }) {
       <div className="flex content-evenly m-auto">
         {link && (
           <a href={link}>
-            <button className="btn btn-outline btn-success m-4">Demo</button>
+            <button className="btn-primary bg-black m-4">Demo</button>
           </a>
         )}
         <a href={github}>
-          <button className="btn btn-outline btn-error m-4">Github</button>
+          <button className="btn-outline text-black m-4">Github</button>
         </a>
       </div>
     </div>

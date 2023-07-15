@@ -7,18 +7,16 @@ function Projects() {
   return (
     <>
       {/* Alert Banner */}
-      <div className="bg-green-200 py-2 px-10 text-black text-center">
-        <p className="mt-1">
-          I write detailed <span className="font-bold underline">readmes</span>,
-          check em out if you'd like to know more about my process!
+
+      <div className="bg-green-300 py-3 text-black text-center">
+        <p>
+        Take a gander at the project's <span className="font-semibold underline">readme's</span> for detailed information and insights
         </p>
-
-        <button className="py-0.5 px-3 outline-1 outline-solid outline-black ">HI!</button>
-
       </div>
 
       {/* Main Projects */}
-      <div className="projects-cards flex flex-wrap justify-evenly px-1">
+      <h2 className="projects-title text-xl font-bold text-center pt-5">Web Applications</h2>
+      <div className="projects-cards flex flex-wrap justify-evenly">
         {projects.map((project) => (
           <Project
             tech={project.tech}
@@ -33,8 +31,8 @@ function Projects() {
       </div>
 
       {/* Lighter Projects */}
-      <h2 className="projects-title text-center">Lighter Projects</h2>
-      <div className="projects-cards flex flex-wrap justify-evenly px-1">
+      <h2 className="projects-title text-xl font-bold text-center">Lighter Projects</h2>
+      <div className="projects-cards flex flex-wrap justify-evenly">
         {smallerProjects.map((project) => (
           <Project
             title={project.title}
@@ -46,6 +44,7 @@ function Projects() {
           />
         ))}
       </div>
+      <h2 className="projects-title text-xl font-bold text-center m-5 mb-10">Logo & Branding</h2>
     </>
   );
 }
