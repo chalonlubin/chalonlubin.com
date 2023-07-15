@@ -12,6 +12,9 @@ function Projects() {
           I write detailed <span className="font-bold underline">readmes</span>,
           check em out if you'd like to know more about my process!
         </p>
+
+        <button className="py-0.5 px-3 outline-1 outline-solid outline-black ">HI!</button>
+
       </div>
 
       {/* Main Projects */}

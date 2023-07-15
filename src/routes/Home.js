@@ -31,10 +31,10 @@ function Home() {
           />
         </p>
         <div className="mt-4">
-          <button className="bg-black text-white rounded p-3 mx-2">
+          <button className="btn-primary mx-5">
             Hire Me
           </button>
-          <button className="bg-purple-700 text-white rounded p-3 mx-2">
+          <button className="btn-outline mx-5">
             Portfolio
           </button>
         </div>
