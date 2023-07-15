@@ -11,14 +11,11 @@ import Skill from "../components/Skill";
 function Skills() {
   return (
     <div className="flex flex-col items-center m-5 ">
-      <div className="text-center my-8 py-5">
-        <h1 className="text-5xl text-black">Skills &amp; Technologies</h1>
-      </div>
-      <div className="card flex flex-wrap flex-col shadow-lg shadow-black-500/50 flex-wrap bg-black/75  items-center mb-20">
-        <Skill type={skills.frontend} title="frontend"></Skill>
-        <Skill type={skills.backend} title="backend"></Skill>
-        <Skill type={skills.database} title="database"></Skill>
-        <Skill type={skills.tools} title="tools"></Skill>
+      <div className="card flex flex-wrap flex-col rounded shadow-lg flex-wrap bg-white/50  items-center mb-20">
+        <Skill type={skills.frontend} title="Frontend"></Skill>
+        <Skill type={skills.backend} title="Backend"></Skill>
+        <Skill type={skills.database} title="Database"></Skill>
+        <Skill type={skills.tools} title="Tools"></Skill>
       </div>
     </div>
   );

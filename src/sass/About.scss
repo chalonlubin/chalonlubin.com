@@ -3,7 +3,6 @@
 /* About cards & logo styling */
 
 .About-card {
-  // font-size: 1.25rem;
   border: 3px solid black;
   border-radius: 10px;
   background-color: white;
@@ -27,7 +26,7 @@
   li {
     font-family: $para-font;
     margin: 0 1rem;
-    margin-bottom: 0.75rem; /* Add margin between list items */
+    margin-bottom: 0.75rem;
     text-align: left;
   }
 }

@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&family=Poppins:wght@300;400;500;600;700;900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&family=Poppins:wght@300;400;500;600;700;900&display=swap");
 
 $color-grey: #131313;
 
-$heading-font: 'Bitter', serif;
-$para-font: 'Poppins', sans-serif;
+$heading-font: "Bitter", serif;
+$para-font: "Poppins", sans-serif;
 $sub-font: "Montserrat", sans-serif;
-
 
 @mixin center-content() {
   display: flex;

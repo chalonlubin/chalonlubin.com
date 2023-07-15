@@ -1,42 +1,33 @@
 import React from "react";
 import { toast } from "react-toastify";
 
-/** Contact Page: Contains form for contact
- *
- *  Props: none
- *  State: formData
- *
- * App --> RouteList --> Contact
- */
 function Contact() {
   const [formData, setFormData] = React.useState({
     name: "",
     email: "",
+    subject: "",
+    phoneNumber: "",
     message: "",
   });
 
-  /** Update form data field */
   function handleChange(evt) {
     const { name, value } = evt.target;
     setFormData((f) => ({ ...f, [name]: value }));
   }
 
-  /** Handle form submission:
-   * - try to send message via Netlify
-   *    - if sent, show success message
-   *    - if fails, show error message
-   **/
   function handleSubmit(e) {
     e.preventDefault();
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: {
+      body: new URLSearchParams({
         "form-name": "contact",
         name: formData.name,
         email: formData.email,
+        subject: formData.subject,
+        phoneNumber: formData.phoneNumber,
         message: formData.message,
-      },
+      }).toString(),
     })
       .then(() =>
         toast("Message Received!", {
@@ -50,7 +41,6 @@ function Contact() {
           theme: "dark",
         })
       )
-
       .catch((error) =>
         toast("Failed to send message", {
           position: "bottom-left",
@@ -68,20 +58,20 @@ function Contact() {
   }
 
   return (
-    <div className="m-10 flex justify-center">
+    <div className="mb-20  flex justify-center">
       <form
         netlify
         name="contact"
         onSubmit={handleSubmit}
         className="w-full md:w-2/3 flex flex-col"
       >
-        <h2 className="text-black text-2xl mb-1 font-medium title-font">
-          Get in Touch
+        <h2 className="text-black text-2xl mb-1 font-heading font-bold">
+          Let's Connect
         </h2>
-        <p className="leading-relaxed mb-5 bg-white rounded text-black p-2 text-md">
-          Would you like to connect? Great! Fill out the form below, and I'll
-          get back to you within 48 hours. Need to reach me quickly? E-mail me
-          directly @ chalonlubin.dev@gmail.com
+        <p className="leading-relaxed mb-5 text-black p-2 text-md">
+          Fill out the form below, or you can email me directly at
+          chalonlubin.dev@gmail.com and I'll get back to you within 48 business
+          hours.
         </p>
         <div className="relative mb-4">
           <label htmlFor="name" className="leading-7 text-sm text-black">
@@ -91,7 +81,7 @@ function Contact() {
             type="text"
             id="name"
             name="name"
-            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full bg-gray-200 rounded border border-gray-400 focus:border-purple-300 focus:ring-2 focus:ring-purple-600 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             onChange={handleChange}
             required
           />
@@ -104,9 +94,43 @@ function Contact() {
             type="email"
             id="email"
             name="email"
-            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full bg-gray-200 rounded border border-gray-400 focus:border-purple-300 focus:ring-2 focus:ring-purple-600 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             onChange={handleChange}
             required
+          />
+        </div>
+        <div className="relative mb-4">
+          <label htmlFor="subject" className="leading-7 text-sm text-gray-400">
+            Subject
+          </label>
+          <select
+            id="subject"
+            name="subject"
+            className="w-full bg-gray-200 rounded border border-gray-400 focus:border-purple-300 focus:ring-2 focus:ring-purple-600 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            onChange={handleChange}
+            required
+          >
+            <option value="" disabled selected>
+              Select an option
+            </option>
+            <option value="freelance">Freelance</option>
+            <option value="job_opportunity">Job Opportunity</option>
+            <option value="networking">Networking</option>
+          </select>
+        </div>
+        <div className="relative mb-4">
+          <label
+            htmlFor="phoneNumber"
+            className="leading-7 text-sm text-gray-400"
+          >
+            Phone Number (Optional)
+          </label>
+          <input
+            type="text"
+            id="phoneNumber"
+            name="phoneNumber"
+            className="w-full bg-gray-200 rounded border border-gray-400 focus:border-purple-300 focus:ring-2 focus:ring-purple-600 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            onChange={handleChange}
           />
         </div>
         <div className="relative mb-4">
@@ -116,14 +140,14 @@ function Contact() {
           <textarea
             id="message"
             name="message"
-            className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+            className="w-full bg-gray-200 rounded border border-gray-400 focus:border-purple-300 focus:ring-2 focus:ring-purple-600 h-32 text-base outline-none text-gray-900 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             onChange={handleChange}
             required
           />
         </div>
         <button
           type="submit"
-          className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-md"
+          className="text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-md"
         >
           Submit
         </button>
