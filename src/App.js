@@ -10,7 +10,7 @@ import "./sass/App.scss";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <BrowserRouter>
         <ToastContainer
           position="bottom-left"
@@ -28,7 +28,7 @@ function App() {
         <RouteList />
         <Footer />
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 
