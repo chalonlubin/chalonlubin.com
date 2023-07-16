@@ -58,19 +58,18 @@ function Contact() {
   }
 
   return (
-    <div className="mb-20  flex justify-center">
+    <div className="mb-20 flex justify-center">
       <form
         netlify
         name="contact"
         onSubmit={handleSubmit}
-        className="w-full md:w-2/3 flex flex-col"
+        className="w-1/2 flex flex-col"
       >
         <h2 className="text-black text-2xl mb-1 font-heading font-bold">
           Let's Connect
         </h2>
         <p className="leading-relaxed mb-5 text-black p-2 text-md">
-          Fill out the form below, or you can email me directly at
-          chalonlubin.dev@gmail.com and I'll get back to you within 48 business
+          Fill out the form below or email me directly at <span className="font-semibold underline">chalonlubin.dev@gmail.com</span>, either way I'll get back to you within 48 business
           hours.
         </p>
         <div className="relative mb-4">
@@ -106,7 +105,7 @@ function Contact() {
           <select
             id="subject"
             name="subject"
-            className="w-full bg-gray-200 rounded border border-gray-400 focus:border-purple-300 focus:ring-2 focus:ring-purple-600 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full bg-gray-200 rounded border border-gray-400 focus:border-purple-300 focus:ring-2 focus:ring-purple-600 outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             onChange={handleChange}
             required
           >

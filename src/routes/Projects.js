@@ -44,7 +44,7 @@ function Projects() {
           />
         ))}
       </div>
-      {/* <h2 className="projects-title text-xl font-bold text-center m-5 mb-10">Logo & Branding</h2> */}
+      <div className="mb-12"></div>
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import React, { useState } from "react";
+import ResumePopup from "./ResumePopup";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -72,14 +73,12 @@ function Navbar() {
             </NavLink>
           </div>
           <div>
-            <a
-              href="#"
-              className="inline-block text-sm font-semibold px-4 py-2 leading-none border rounded border-black hover:border-purple-500 hover:text-purple-500 mt-4 lg:mt-0"
-            >
-              Resume
-            </a>
+          <ResumePopup />
           </div>
         </div>
+        {/* <div>
+          <ResumePopup />
+        </div> */}
       </div>
     </nav>
   );
