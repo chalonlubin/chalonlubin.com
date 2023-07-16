@@ -1,15 +1,16 @@
-import "../sass/About.scss";
-
-/** About
+/**
+ * About
  *
- *  Props: none
- *  State: none
+ * Renders information about the site owner, including a photo and details about their background and interests.
+ *
+ * Props: None
+ * State: None
  *
  * App --> RouteList --> About
  */
 function About() {
   return (
-    <div className="m-3">
+    <div className="my-6 mx-2">
       <div className="flex flex-col items-center h-full">
         {/* Photo */}
         <div className="w-96 h-96 mb-5">
@@ -21,11 +22,11 @@ function About() {
         </div>
 
         <div className="w-2/3 text-center mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Hi, I'm Chalon!</h2>
+          <h2 className="text-3xl font-heading font-semibold mb-4">Hello 👋</h2>
           <p>
-            I'm a freelance software engineer. I've also been a bartender and
+            I'm Chalon, a freelance software engineer. I've also been a bartender and
             bar manager for the last few years, and prior to that I was a mental
-            health program director. I have pivoted to software engineering
+            health program director. In the last year I have pivoted to software engineering
             because I find it mentally engaging, and great way to express a mix
             of logic and creativity. I'm currently open to employment
             opportunities, lets touch base if you have something to offer or

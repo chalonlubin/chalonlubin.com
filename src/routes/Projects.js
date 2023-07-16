@@ -2,7 +2,7 @@ import Project from "../components/Project";
 import { projects, smallerProjects } from "../assets/data";
 import Banner from "../components/Banner";
 
-import "../sass/Projects.scss";
+
 
 function Projects() {
   return (

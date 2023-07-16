@@ -1,5 +1,10 @@
-import "../sass/Project.scss";
-
+/** Project
+ *
+ *  Props: { project: [title, description, tech, image, link, github]
+ *  State: none
+ *
+ * App --> RouteList --> Projects -> Project
+ */
 function Project({ title, description, tech, image, link, github }) {
   return (
     <div className="project-card rounded-lg shadow-lg bg-white text-black m-4 w-80 text-center flex flex-col flex-wrap justify-center">

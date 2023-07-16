@@ -2,6 +2,13 @@ import { NavLink } from "react-router-dom";
 import React, { useState } from "react";
 import ResumePopup from "./ResumePopup";
 
+/** Navbar
+ *
+ *  Props: none
+ *  State: none
+ *
+ * App --> Navbar
+ */
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 

@@ -2,14 +2,12 @@ import { Link } from "react-router-dom";
 import { RiLinkedinFill, RiGithubLine } from "react-icons/ri";
 import { HiOutlineMail } from "react-icons/hi";
 
-import "../sass/Footer.scss";
-
 /** Footer
  *
  *  Props: none
  *  State: none
  *
- * App --> RouteList --> Footer
+ * App -->  Footer
  */
 function Footer() {
   return (

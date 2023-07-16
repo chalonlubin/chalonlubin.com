@@ -1,8 +1,10 @@
 @import "_variables.scss";
-
-* {
-  // border: 1px solid red;
-}
+@import "About.scss";
+@import "Footer.scss";
+@import "index.scss";
+@import "NotFound.scss";
+@import "Project.scss";
+@import "Projects.scss";
 
 body {
   background-color: whitesmoke;
@@ -11,6 +13,6 @@ body {
 }
 
 .Typewriter {
-  height: 5rem;
-  width: 20rem;
+  height: 6rem;
+  width: 24rem;
 }

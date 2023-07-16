@@ -2,7 +2,7 @@
 
 .project-card {
   border: 1px solid black;
-  box-shadow: 5px 5px black;
+  box-shadow: 6px 6px black;
 }
 
 .project-title {
@@ -19,13 +19,13 @@
 
 .project-tech {
   font-family: $sub-font;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   margin: 1rem 0rem;
   padding: 1rem 0.25rem;
-  background-color: white;
+  background-color: whitesmoke;
   box-shadow: 2px 2px black;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 5px;
-  opacity: 1;
+  opacity: 0.75;
   line-height: 1.5rem;
 }

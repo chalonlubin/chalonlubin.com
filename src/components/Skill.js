@@ -2,8 +2,10 @@ import React, { useState } from "react";
 
 /** Skill
  *
- *  Props: type, title
- *  State: none
+ *  Creates list item skill icons
+ *
+ *  Props: {skill: type, title }
+ *  State: hoveredSkill - boolean or null
  *
  * App --> RouteList --> Skills --> Skill
  */
@@ -18,7 +20,7 @@ function Skill({ type, title }) {
       <ul className="p-2 flex flex-row flex-wrap justify-center items-center">
         {type.map((skill, index) => (
           <li
-            className="p-3 relative" // Added relative position to the li element
+            className="p-3 relative"
             key={index}
             onMouseEnter={() => setHoveredSkill(skill)}
             onMouseLeave={() => setHoveredSkill(null)}

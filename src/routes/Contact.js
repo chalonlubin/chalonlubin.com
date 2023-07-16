@@ -1,6 +1,16 @@
 import React from "react";
 import { toast } from "react-toastify";
 
+/** Contact
+ *
+ * Renders a contact form for users to send messages to the site owner.
+ *
+ * Props: None
+ * State: formData - An object containing form field values (name, email, subject, phoneNumber, message).
+ *                These values are updated as users fill in the form.
+ *
+ * App --> RouteList --> Contact
+ */
 function Contact() {
   const [formData, setFormData] = React.useState({
     name: "",
