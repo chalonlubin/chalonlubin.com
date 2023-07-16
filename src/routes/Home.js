@@ -13,7 +13,7 @@ function Home() {
             Software Engineer
           </span>
         </h1>
-        <p className="home-welcome text-lg mb-3">
+        <div className="home-welcome text-lg mb-3">
           <Typewriter
             options={{
               strings: [
@@ -28,7 +28,7 @@ function Home() {
               deleteSpeed: 30,
             }}
           />
-        </p>
+        </div>
         <div className="mt-4">
           <button className="btn-primary mx-5">
             Hire Me

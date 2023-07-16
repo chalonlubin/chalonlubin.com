@@ -14,7 +14,7 @@ function About() {
       <div className="w-96 h-96 mb-5">
         <img
           src="/images/chalon.png"
-          alt="Photo of Chalon"
+          alt="Headshot of Chalon"
           className="rounded-full shadow-lg"
         />
       </div>
@@ -33,7 +33,7 @@ function About() {
       </div>
 
       {/* Cards */}
-      <div className="flex flex-col lg:flex-row lg:w-2/3 mb-12">
+      <div className="flex flex-col lg:flex-row lg:w-2/3 mb-20">
         <div className="About-card p-4 m-4 text-center flex-1">
           <h2 className="About-title"> About Me</h2>
           <ul>
@@ -54,16 +54,20 @@ function About() {
           <h2 className="About-title"> Why I Add Value</h2>
           <ul>
             <li>
-              • I'm empathetic, my background has given me the ability to see
-              diverse perspectives with ease, and handle conflicts gracefully
+              • I'm <b>empathetic</b>, my background has given me the ability to
+              see diverse perspectives with ease, and handle conflicts
+              gracefully
             </li>
             <li>
               • In the last two industries I've worked in, I've earned
-              leadership positions & added revenue through both networking and
-              data analysis
+              leadership positions & <b>added revenue</b> through both
+              networking and data analysis
             </li>
             <li>
-              • I take pride having no ego, I'm easygoing and approachable.
+              • I take pride having no ego, I'm{" "}
+              <b>easygoing and approachable</b>. This translates to a
+              smooth working experience whether we are working together or you've
+              hired me
             </li>
           </ul>
         </div>

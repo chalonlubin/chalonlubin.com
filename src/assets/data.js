@@ -33,7 +33,7 @@ export const projects = [
     tech: "#React #Tailwind #Sass ",
     image: "images/website.png",
     github: "https://github.com/chalonlubin/portfolio",
-    description: "Figma design to code",
+    description: "This! No templates or components used.",
     details: "",
   },
 ];
@@ -41,23 +41,23 @@ export const projects = [
 export const smallerProjects = [
   {
     title: "Midnight Match",
-    tech: "JavaScript, jQuery",
-    description: "Practice w/ OOP and API calls",
+    tech: "#JavaScript, #jQuery, #Axios",
+    description: "Practice w/ object oriented programming and api calls",
     github: "https://github.com/chalonlubin/midnight-match",
     link: "https://chalonlubin.github.io/midnight-match/",
   },
   {
     title: "Meme Generator",
-    tech: "JavaScript",
+    tech: "#JavaScript",
     description: "Practice with DOM manipulation and vanilla JS",
     github: "https://github.com/chalonlubin/meme-generator",
     link: "https://chalonlubin.github.io/meme-generator/",
   },
   {
     title: "Conceptual Refreshers",
-    tech: "JavaScript",
+    tech: "#JavaScript",
     description:
-      "DSA, JavaScript, and React review",
+      "Data structures and algorithms, computer science concepts, and React.js review",
     github: "https://github.com/chalonlubin/advanced-topics",
     link: "",
   },
@@ -86,14 +86,5 @@ export const skills = {
     "webflow",
     "tailwind",
     "bootstrap",
-  ],
-  /* Probably won't use. More for a "soft skills in plain english" resume format. */
-  soft: [
-    "Easygoing, positive and approachable",
-    "I try to find solutions instead of focusing on the negatives of a problem",
-    "I take initiative and am willing to do the “dirty work” that is less appealing",
-    "Leadership (I’ve been promoted to management positions in every job I’ve held over a year.)",
-    "Empathetic. Due to my background I find it easy to approach problems while wearing someone else's shoes.",
-    "Communication is huge, and I understand that not everyone has the same communication preferences, so I try to find what is ideal and communicate in that style with everyone I meet",
   ],
 };

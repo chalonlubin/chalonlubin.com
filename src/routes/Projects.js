@@ -10,12 +10,16 @@ function Projects() {
 
       <div className="bg-green-300 py-3 text-black text-center">
         <p>
-        Take a gander at the project's <span className="font-semibold underline">readme's</span> for detailed information and insights
+          Take a gander at my project's{" "}
+          <span className="font-semibold underline">readme</span> (found on
+          github) for detailed information and insights
         </p>
       </div>
 
       {/* Main Projects */}
-      <h2 className="projects-title text-xl font-bold text-center pt-5">Web Applications</h2>
+      <h2 className="projects-title text-xl font-bold text-center pt-5">
+        Web Applications
+      </h2>
       <div className="projects-cards flex flex-wrap justify-evenly">
         {projects.map((project) => (
           <Project
@@ -31,7 +35,9 @@ function Projects() {
       </div>
 
       {/* Lighter Projects */}
-      <h2 className="projects-title text-xl font-bold text-center">Lighter Projects</h2>
+      <h2 className="projects-title text-xl font-bold text-center">
+        Lighter Projects
+      </h2>
       <div className="projects-cards flex flex-wrap justify-evenly">
         {smallerProjects.map((project) => (
           <Project

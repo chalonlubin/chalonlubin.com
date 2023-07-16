@@ -17,7 +17,7 @@ function Navbar() {
             <img
               className="h-8 w-8 mr-2"
               alt="logo"
-              src="images/logo.png"
+              src="/logo.svg"
             ></img>
             <span className="font-semibold text-xl tracking-tight">
               Chalon.dev
@@ -76,9 +76,6 @@ function Navbar() {
           <ResumePopup />
           </div>
         </div>
-        {/* <div>
-          <ResumePopup />
-        </div> */}
       </div>
     </nav>
   );

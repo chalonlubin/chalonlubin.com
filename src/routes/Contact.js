@@ -60,7 +60,7 @@ function Contact() {
   return (
     <div className="mb-20 flex justify-center">
       <form
-        netlify
+        netlify="true"
         name="contact"
         onSubmit={handleSubmit}
         className="w-1/2 flex flex-col"
@@ -109,7 +109,7 @@ function Contact() {
             onChange={handleChange}
             required
           >
-            <option value="" disabled selected>
+            <option value="Select an option" disabled>
               Select an option
             </option>
             <option value="freelance">Freelance</option>
