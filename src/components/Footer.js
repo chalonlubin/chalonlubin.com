@@ -13,8 +13,8 @@ import "../sass/Footer.scss";
  */
 function Footer() {
   return (
-    <div className="footer-container flex">
-      <footer className="footer">
+    <footer>
+      <div className="footer-container">
         <Link to="https://www.linkedin.com/in/chalonl/">
           <RiLinkedinFill />
         </Link>
@@ -24,8 +24,8 @@ function Footer() {
         <Link to="mailto:chalonlubin.dev@gmail.com">
           <HiOutlineMail />
         </Link>
-      </footer>
-    </div>
+      </div>
+    </footer>
   );
 }
 

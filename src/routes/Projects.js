@@ -10,8 +10,8 @@ function Projects() {
 
       <div className="bg-green-300 py-3 text-black text-center">
         <p>
-          Take a gander at my project's{" "}
-          <span className="font-semibold underline">readme</span> (found on
+          Take a gander at my project{" "}
+          <span className="font-semibold underline">readme's</span> (found on
           github) for detailed information and insights
         </p>
       </div>

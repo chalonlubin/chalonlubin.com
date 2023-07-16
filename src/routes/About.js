@@ -9,7 +9,9 @@ import "../sass/About.scss";
  */
 function About() {
   return (
-    <div className="flex flex-col items-center">
+    <div
+      className="flex flex-col items-center h-full"
+    >
       {/* Photo */}
       <div className="w-96 h-96 mb-5">
         <img
@@ -65,9 +67,9 @@ function About() {
             </li>
             <li>
               • I take pride having no ego, I'm{" "}
-              <b>easygoing and approachable</b>. This translates to a
-              smooth working experience whether we are working together or you've
-              hired me
+              <b>easygoing and approachable</b>. This translates to a smooth
+              working experience whether we are working together or you've hired
+              me
             </li>
           </ul>
         </div>

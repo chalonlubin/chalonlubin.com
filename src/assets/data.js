@@ -33,7 +33,7 @@ export const projects = [
     tech: "#React #Tailwind #Sass ",
     image: "images/website.png",
     github: "https://github.com/chalonlubin/portfolio",
-    description: "This! No templates or components used.",
+    description: "This! No templates or components used",
     details: "",
   },
 ];

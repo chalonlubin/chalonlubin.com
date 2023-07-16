@@ -6,8 +6,4 @@ $heading-font: "Bitter", serif;
 $para-font: "Poppins", sans-serif;
 $sub-font: "Montserrat", sans-serif;
 
-@mixin center-content() {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+

@@ -1,41 +1,11 @@
 @import "_variables.scss";
 
-/* Broad HTML & body / App container styling */
-html {
-  margin: 0;
-  padding: 0;
-  font-size: 18px; /* Default font size */
-
-  @media screen and (max-width: 1007px) {
-    font-size: 16px;
-  }
-  @media screen and (max-width: 640px) {
-    font-size: 14px;
-  }
-}
-
 body {
-  padding: auto;
-  line-height: 1.5; /* Improved line height for better readability */
   background-color: whitesmoke;
-  background-size: cover;
   color: black;
   font-family: $para-font, sans-serif;
 }
 
-/* Define font sizes and styles for headings if not already defined */
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+.Typewriter {
+  width: 20rem;
 }
-
-h2 {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-h3 {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-

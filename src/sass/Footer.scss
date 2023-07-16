@@ -1,25 +1,29 @@
 /* Footer styling */
 
-.footer-container {
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
-  height: 4%;
+footer {
   background-color: black;
-  height: calc(4vh + 10px);
+  color: whitesmoke;
+  font-size: 2rem;
 }
 
-.footer {
+.footer-container {
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
-  color: whitesmoke;
-  width: 100vw;
-  a {
-    gap: 0 1rem 0 1rem;
-  }
-  svg {
-    width: 2rem;
-    height: 2rem;
-  }
+  align-items: center;
+  height: 4.25rem;
 }
+
+// .footer {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-evenly;
+//   color: whitesmoke;
+//   // width: 100vw;
+//   a {
+//     gap: 0 1rem 0 1rem;
+//   }
+//   svg {
+//     width: 2rem;
+//     height: 2rem;
+//   }
+// }
