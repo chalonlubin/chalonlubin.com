@@ -6,16 +6,6 @@ import "../sass/Projects.scss";
 function Projects() {
   return (
     <>
-      {/* Alert Banner */}
-
-      <div className="bg-green-300 py-3 text-black text-center">
-        <p>
-          Take a gander at my project{" "}
-          <span className="font-semibold underline">readme's</span> (found on
-          github) for detailed information and insights
-        </p>
-      </div>
-
       {/* Main Projects */}
       <h2 className="projects-title text-xl font-bold text-center pt-5">
         Web Applications

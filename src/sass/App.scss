@@ -1,5 +1,9 @@
 @import "_variables.scss";
 
+* {
+  // border: 1px solid red;
+}
+
 body {
   background-color: whitesmoke;
   color: black;
@@ -7,5 +11,5 @@ body {
 }
 
 .Typewriter {
-  width: 20rem;
+  height: 5rem;
 }

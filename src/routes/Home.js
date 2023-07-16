@@ -2,18 +2,22 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
 
+//TODO: change start of typewriter
+
 function Home() {
   return (
-    <div className="text-center p-5">
-      <p className="text-lg mb-3">Welcome to my site 👋</p>
-      <h1 className="text-4xl leading-10">
-        I'm Chalon,
-        <br />A Full-Stack <br />
-        <span className="text-4xl text-purple-700 font-semibold">
-          Software Engineer
-        </span>
-      </h1>
-      <div className="text-lg flex justify-center">
+    <div className="flex flex-col gap-10 p-10 justify-center items-center">
+      <div>
+        <p className="text-lg pb-3 self-start">Welcome to my site 👋</p>
+        <h1 className="text-4xl">
+          I'm Chalon,
+          <br />A Full-Stack <br />
+          <span className="text-4xl text-purple-700 font-semibold">
+            Software Engineer
+          </span>
+        </h1>
+      </div>
+      <div className="text-lg">
         <Typewriter
           options={{
             strings: [
@@ -29,11 +33,11 @@ function Home() {
           }}
         />
       </div>
-      <div className="mt-4 grid">
-        <Link to="contact" className="btn btn-primary mx-5">
+      <div className="flex flex-col md:flex-row gap-12">
+        <Link to="contact" className="btn btn-primary">
           Hire Me
         </Link>
-        <Link to="/projects" className="btn btn-outline mx-5">
+        <Link to="/projects" className="btn btn-outline">
           Portfolio
         </Link>
       </div>
