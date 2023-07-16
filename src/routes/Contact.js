@@ -58,13 +58,13 @@ function Contact() {
   }
 
   return (
-    // <div className="flex justify-center">
-      // <div className=" flex flex-col">
+    <div className="py-10 flex justify-center">
+      <div className="w-3/4">
         <form netlify="true" name="contact" onSubmit={handleSubmit}>
-          <h2 className="text-black text-2xl mb-1 font-heading font-bold">
+          <h2 className="text-black text-3xl mb-1 font-heading font-bold">
             Let's Connect
           </h2>
-          <p className="leading-relaxed mb-5 text-black text-sm">
+          <p className="leading-relaxed mb-5 text-black text-md">
             Fill out the form below or email me directly at{" "}
             <span className="font-semibold underline">
               chalonlubin.dev@gmail.com
@@ -150,8 +150,8 @@ function Contact() {
             Submit
           </button>
         </form>
-      // </div>
-    // </div>
+      </div>
+    </div>
   );
 }
 

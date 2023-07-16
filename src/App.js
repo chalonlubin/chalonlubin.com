@@ -5,13 +5,10 @@ import "react-toastify/dist/ReactToastify.css";
 import RouteList from "./routes/RouteList";
 import NavBar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Banner from "./components/Banner";
 
 import "./sass/App.scss";
 
 function App() {
-  // TODO: useParams or useLocation to only show banner when intended
-
   return (
     <BrowserRouter>
       <ToastContainer
@@ -26,15 +23,8 @@ function App() {
         pauseOnHover
         theme="dark"
       />
-      <div className="flex flex-col justify-between h-screen">
-        <div className="mb-2">
-          <NavBar />
-          <Banner message="Hover icons you aren't familiar with for more detail." />
-          <Banner
-            message="Take a gander at my project readme's (found on github) for detailed information and insights"
-            color="bg-green-300"
-          />
-        </div>
+      <div className="flex flex-col justify-between min-h-screen">
+        <NavBar />
         <RouteList />
         <Footer />
       </div>

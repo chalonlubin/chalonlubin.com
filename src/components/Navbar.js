@@ -11,8 +11,7 @@ function Navbar() {
 
   return (
     <nav>
-      <div className="px-2 py-4 border border-black">
-
+      <div className="px-2 py-4 shadow-lg">
         <div className="flex items-center justify-between flex-wrap">
           <NavLink to="/">
             <div className="flex items-center flex-shrink-0 text-black">
@@ -76,7 +75,6 @@ function Navbar() {
           </div>
         </div>
       </div>
-
     </nav>
   );
 }

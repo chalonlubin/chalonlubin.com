@@ -15,14 +15,14 @@ function Project({ title, description, tech, image, link, github }) {
         <h4 className="project-description">{description}</h4>
         <h3 className="project-tech">{tech}</h3>
       </div>
-      <div className="flex content-evenly m-auto">
+      <div className="flex gap-10 py-5 content-evenly justify-center">
         {link && (
           <a href={link}>
-            <button className="btn-primary bg-black m-4">Demo</button>
+            <button className="btn btn-primary bg-black ">Demo</button>
           </a>
         )}
         <a href={github}>
-          <button className="btn-outline text-black m-4">Github</button>
+          <button className="btn btn-outline text-black ">Github</button>
         </a>
       </div>
     </div>

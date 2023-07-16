@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-10 p-10 justify-center items-center">
-      <div>
+    <div className="flex justify-center align-center items-center h-100">
+      <div className="flex flex-col justify-center items-center w-auto gap-3">
         <p className="text-lg pb-3 self-start">Welcome to my site 👋</p>
         <h1 className="text-4xl">
           I'm Chalon,
@@ -16,7 +16,7 @@ function Home() {
             Software Engineer
           </span>
         </h1>
-      </div>
+
       <div className="text-lg">
         <Typewriter
           options={{
@@ -33,6 +33,7 @@ function Home() {
           }}
         />
       </div>
+
       <div className="flex flex-col md:flex-row gap-12">
         <Link to="contact" className="btn btn-primary">
           Hire Me
@@ -40,6 +41,7 @@ function Home() {
         <Link to="/projects" className="btn btn-outline">
           Portfolio
         </Link>
+      </div>
       </div>
     </div>
   );

@@ -29,8 +29,14 @@ function ResumePopup() {
         Resume
       </button>
       {isOpen && (
-        <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-75">
-          <div className="bg-white p-4 rounded shadow-md resume-popup-content">
+        <div
+          className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-75"
+          style={{ zIndex: 2 }}
+        >
+          <div
+            className="bg-white p-4 rounded shadow-md resume-popup-content"
+            style={{ pointerEvents: "auto" }}
+          >
             <p className="text-black text-center font-semibold mb-4">
               View or Download Resume
             </p>

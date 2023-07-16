@@ -1,14 +1,18 @@
 import Project from "../components/Project";
 import { projects, smallerProjects } from "../assets/data";
+import Banner from "../components/Banner";
 
 import "../sass/Projects.scss";
 
 function Projects() {
   return (
     <>
-      {/* Main Projects */}
+      <Banner
+        message="Take a gander at my project readme's (found on github) for detailed information and insights"
+        color="bg-green-300"
+      />
       <h2 className="projects-title text-xl font-bold text-center pt-5">
-        Web Applications
+        Full-Stack Applications
       </h2>
       <div className="projects-cards flex flex-wrap justify-evenly">
         {projects.map((project) => (
@@ -24,7 +28,6 @@ function Projects() {
         ))}
       </div>
 
-      {/* Lighter Projects */}
       <h2 className="projects-title text-xl font-bold text-center">
         Lighter Projects
       </h2>
