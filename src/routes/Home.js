@@ -1,46 +1,64 @@
-import "../sass/Home.scss";
+import React from "react";
 import Typewriter from "typewriter-effect";
+import { Link } from "react-router-dom";
 
-/** Home: Root / landing page.
- *
- *  Props: none
- *  State: word
- *
- * App --> RouteList --> Home
- */
 function Home() {
   return (
-    <div className="home">
-      <div className="home-container">
-        <h1 className="logo">
-          I'm{" "}
-          <b>
-            C<span>ha</span>l<span>o</span>n,
-          </b>{" "}
-          a full stack{" "}
-          <b>
-            s<span>o</span>f<span>twa</span>re<span> eng</span>in<span>ee</span>
-            r
-          </b>{" "}
-          in Bend, OR.
-        </h1>
-        <div id="typewriter">
-          <Typewriter
-            options={{
-              strings: [
-                "I enjoy bringing ideas to life, from concept to product.",
-                "I value forward momentum equally as much as learning from failures. ",
-                "I love building, both virtually and physically.",
-              ],
-              autoStart: true,
-              loop: true,
-              pauseFor: 1500,
-              delay: 35,
-              deleteSpeed: 45,
-            }}
-          />
+    <div className="flex flex-col items-center justify-center p-4 mx-16">
+      {/* Top section */}
+      <div className="flex flex-col md:flex-row items-center justify-center gap-3 w-full">
+        <div className=" p-4 w-full md:w-1/2">
+          <div className="flex flex-col items-center justify-gap-3 mt-6 font-heading">
+            <p className="text-lg pb-3">Welcome to my site 👋</p>
+            <h1 className="text-4xl text-center">
+              I'm Chalon,
+              <br />A Full-Stack <br />
+              <span className="text-purple-600 font-semibold">
+                Software Engineer
+              </span>
+            </h1>
+            <h2 className="font-semibold text-xl p-3 text-center">
+              With a background in psychology and communication
+            </h2>
+            <div className="text-lg text-center">
+              <Typewriter
+                options={{
+                  strings: [
+                    "I enjoy bringing ideas to life, from concept to product.",
+                    "I value forward momentum equally as much as learning from failures.",
+                    "I love building, both virtually and physically.",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  pauseFor: 2000,
+                  delay: 30,
+                  deleteSpeed: 30,
+                }}
+              />
+            </div>
+            <div className="flex flex-col md:flex-row gap-12">
+              <Link to="contact" className="btn btn-primary">
+                Hire Me
+              </Link>
+              <Link to="/projects" className="btn btn-outline">
+                Portfolio
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="p-2 w-full md:w-1/2 flex justify-center">
+          <div className="bg-purple-200 p-1 rounded-xl">
+            <img
+              src="/images/chalon_outside3.jpeg"
+              className="border border-white rounded-xl shadow-sm"
+              alt="Chalon outside"
+            />
+          </div>
         </div>
       </div>
+
+      {/* Bottom section, may use later */}
+      {/* <div className="bg-green-200 p-4 mt-4 w-full">Box 3</div> */}
     </div>
   );
 }

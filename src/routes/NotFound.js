@@ -2,6 +2,7 @@ import "../sass/NotFound.scss";
 
 /** NotFound: 404 page render
  *
+//  * Displays a stylized 404 page.
  * state: none
  * props: none
  *

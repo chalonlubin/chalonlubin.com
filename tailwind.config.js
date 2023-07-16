@@ -4,9 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'ivory': 'ivory',
+        // Add your custom colors here
+        whitesmoke: "#f5f5f5",
+      },
+      fontFamily: {
+        para: ["Poppins", "sans-serif"],
+        sub: ["Montserrat", "sans-serif"],
+        heading: ["Bitter", "serif"]
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [],
 };

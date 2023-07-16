@@ -1,30 +1,20 @@
 import Project from "../components/Project";
 import { projects, smallerProjects } from "../assets/data";
+import Banner from "../components/Banner";
 
-import "../sass/Projects.scss";
 
-/** Project Page: Contains information on recent projects.
- *
- *  Props: none
- *  State: none
- *
- * App --> RouteList --> Projects
- */
+
 function Projects() {
   return (
     <>
-      <div className="mt-5 pt-5 flex justify-center">
-        <div className="About-card card w-2/3 rounded bg-gray-900/80 text-white p-1 text-center ">
-          <h2 className="About-title"> A quick note on my projects: </h2>
-          <p>
-            I write detailed github READMEs for all the projects listed where I
-            highlight features, motivations, and challenges, with the intent of
-            showing you lessons taken from each one. Please feel free to check
-            them out if you'd like to know more about what I built.
-          </p>
-        </div>
-      </div>
-      <div className="projects-cards flex flex-wrap justify-evenly px-1">
+      <Banner
+        message="Take a gander at my project readme's (found on github) for detailed information and insights"
+        color="bg-green-300"
+      />
+      <h2 className="projects-title text-xl font-bold text-center pt-5">
+        Full-Stack Applications
+      </h2>
+      <div className="projects-cards flex flex-wrap justify-evenly">
         {projects.map((project) => (
           <Project
             tech={project.tech}
@@ -37,8 +27,11 @@ function Projects() {
           />
         ))}
       </div>
-      <h2 className="projects-title text-center">Smaller Projects</h2>
-      <div className="projects-cards flex flex-wrap justify-evenly px-1">
+
+      <h2 className="projects-title text-xl font-bold text-center">
+        Lighter Projects
+      </h2>
+      <div className="projects-cards flex flex-wrap justify-evenly">
         {smallerProjects.map((project) => (
           <Project
             title={project.title}
@@ -50,13 +43,7 @@ function Projects() {
           />
         ))}
       </div>
-      <div className="projects-extra mb-10 p-6 text-center">
-        <h2 className="projects-title text-center">Coming soon....</h2>
-        <h3>
-          Van conversion story with pictures, and a blurb about what I am
-          working on now!{" "}
-        </h3>
-      </div>
+      <div className="mb-12"></div>
     </>
   );
 }

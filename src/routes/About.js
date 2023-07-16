@@ -1,78 +1,79 @@
-import "../sass/About.scss";
-
-/** About
+/**
+ * About
  *
- *  Props: none
- *  State: none
+ * Renders information about the site owner, including a photo and details about their background and interests.
+ *
+ * Props: None
+ * State: None
  *
  * App --> RouteList --> About
  */
 function About() {
   return (
-    <div className="flex flex-col content-center items-center flex-wrap justify-center m-5 p-5 mb-5">
-      <div className="border-2 rounded-full w-96 h-96">
-        <img src="/images/chalon.png" alt="Chalon" className="rounded-full" />
-      </div>
-      <div className="my-5 p-5">
-        <div className="About-card card rounded bg-gray-900 text-white p-2 text-center">
-          <h2 className="About-title"> A bit about me</h2>
-          <ul>
-            <li>🏔️ Born and raised in Anchorage, Alaska</li>
-            <li>⚒️ I enjoy building, creating, and designing </li>
-            <li>
-              👨‍💻 I'm a full-stack software engineer with an equal love for both
-              stacks
-            </li>
-            <li>
-              🧞‍♂️ My goal is to design and develop apps that solve interesting
-              problems, and make the world a bit better
-            </li>
-            <li>🚀 I live for progression and self improvement</li>
-          </ul>
-
-          <h2 className="About-title">Hobbies</h2>
-          <ul>
-            <li>🌊 Snowboarding & surfing</li>
-            <li>🏕️ Hiking, camping, biking, & backpacking</li>
-            <li>🥊 Muay Thai</li>
-            <li>
-              👾 Video games. Fable, Skyrim, & Witcher are some of my all-time
-              favorite series
-            </li>
-          </ul>
-          <h2 className="About-title">Interests</h2>
-          <ul>
-            <li>
-              🖥️ Technology: I'm interested in solving human issues in an
-              efficient and creative way through the use of software
-            </li>
-            <li>
-              👋 Social Issues: I spent 6 years working at non-profits before
-              entering tech; specific interests include: mentorship for troubled
-              youth, financial literacy for the public, & mental wellness for
-              all
-            </li>
-            <li>
-              🌎 Adventure: I traveled internationally for 3 years, spending
-              most of my time in hostels while living out of a backpack{" "}
-            </li>
-            <li>🧠 Self Improvement: Reaching mental and physical goals</li>
-          </ul>
+    <div className="my-6 mx-2">
+      <div className="flex flex-col items-center h-full">
+        {/* Photo */}
+        <div className="w-96 h-96 mb-5">
+          <img
+            src="/images/chalon.png"
+            alt="Headshot of Chalon"
+            className="rounded-full shadow-lg"
+          />
         </div>
-      </div>
-      <div className="About-card card rounded bg-gray-900 text-white items-center p-2 text-center mb-8">
-        <h2 className="About-title"> What's up with the logo? </h2>
-        <img
-          src="images/logo.png"
-          alt="Chalon's custom logo"
-          className="logo-image"
-        ></img>
-        <p>
-          The logo is one of my first creations, made with Figma. I thought it
-          was a good representation of forward progress, momentum and a play
-          with colors. Initially I was going to go with a snowball building
-          momentum, but I ended up liking this version the best.
-        </p>
+
+        <div className="w-2/3 text-center mb-8">
+          <h2 className="text-3xl font-heading font-semibold mb-4">Hello 👋</h2>
+          <p>
+            I'm Chalon, a freelance software engineer. I've also been a bartender and
+            bar manager for the last few years, and prior to that I was a mental
+            health program director. In the last year I have pivoted to software engineering
+            because I find it mentally engaging, and great way to express a mix
+            of logic and creativity. I'm currently open to employment
+            opportunities, lets touch base if you have something to offer or
+            just want to connect.
+          </p>
+        </div>
+
+        {/* Cards */}
+        <div className="flex flex-col lg:flex-row lg:w-2/3 mb-20">
+          <div className="About-card p-4 m-4 text-center flex-1">
+            <h2 className="About-title"> About Me</h2>
+            <ul>
+              <li>🏔️ Born and raised in Anchorage, Alaska</li>
+              <li>🎨 Creative person with a sense of humor</li>
+              <li>🚀 Strive to progress & improve each day</li>
+            </ul>
+            <h2 className="About-title">When I'm not coding I'm...</h2>
+            <ul>
+              <li>🌊 Snowboarding & surfing</li>
+              <li>🏕️ Hanging outdoors with my dogs</li>
+              <li>🥊 Muay Thai</li>
+              <li>🎬 Consuming podcasts & movies</li>
+            </ul>
+          </div>
+
+          <div className="About-card p-4 m-4 text-center flex-1">
+            <h2 className="About-title"> Why I Add Value</h2>
+            <ul>
+              <li>
+                • I'm <b>empathetic</b>, my background has given me the ability
+                to see diverse perspectives with ease, and handle conflicts
+                gracefully
+              </li>
+              <li>
+                • In the last two industries I've worked in, I've earned
+                leadership positions & <b>added revenue</b> through both
+                networking and data analysis
+              </li>
+              <li>
+                • I take pride having no ego, I'm{" "}
+                <b>easygoing and approachable</b>. This translates to a smooth
+                working experience whether we are working together or you've
+                hired me
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );

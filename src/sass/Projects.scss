@@ -1,17 +1,14 @@
 @import "_variables.scss";
 
 /* Project cards & outer header styling */
-
 .projects-cards {
-  margin: 6% 0px 5% 0px;
+  color: white;
+  margin-bottom: 3.5%;
 }
+
 .projects-title {
   font-family: $heading-font;
-  font-size: 2rem;
-}
-.projects-extra {
-  h3 {
-    font-size: 1.5rem;
-    padding-bottom: 2rem;
-  }
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
 }

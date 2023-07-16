@@ -1,23 +1,14 @@
 /* Footer styling */
 
-.footer-container {
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
-  height: 6%;
+footer {
   background-color: black;
-  display: flex;
+  color: whitesmoke;
+  font-size: 2rem;
 }
 
-.footer {
+.footer-container {
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
-  a {
-    gap: 0 1rem 0 1rem;
-  }
-  svg {
-    width: 2rem;
-    height: 2rem;
-  }
+  align-items: center;
+  height: 4.25rem;
 }

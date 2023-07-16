@@ -1,36 +1,33 @@
-import "../sass/Project.scss";
-
 /** Project
  *
- * State: none
- * Props: data = {title, subtitle, image, link, github}
+ *  Props: { project: [title, description, tech, image, link, github]
+ *  State: none
  *
- * App -> RouteList -> Projects -> Project
- *
+ * App --> RouteList --> Projects -> Project
  */
 function Project({ title, description, tech, image, link, github }) {
   return (
-    <div className="rounded-lg shadow-lg bg-gray-900 m-4 w-80 text-center flex flex-col flex-wrap justify-center">
+    <div className="project-card rounded-lg shadow-lg bg-white text-black m-4 w-80 text-center flex flex-col flex-wrap justify-center">
       {image && (
         <img
-          className="rounded-t-lg max-w-xs opacity-25 hover:filter-none hover:opacity-100"
+          className="rounded-t-lg max-w-sm h-60 w-full object-cover opacity-50 hover:filter-none hover:opacity-100"
           src={image}
           alt={title}
         />
       )}
       <div className="p-4 m-auto">
         <h2 className="project-title">{title}</h2>
-        <h3 className="project-tech">{tech}</h3>
         <h4 className="project-description">{description}</h4>
+        <h3 className="project-tech">{tech}</h3>
       </div>
-      <div className="flex content-evenly m-auto">
+      <div className="flex gap-10 py-5 content-evenly justify-center">
         {link && (
           <a href={link}>
-            <button className="btn btn-outline btn-success m-4">Demo</button>
+            <button className="btn btn-primary bg-black ">Demo</button>
           </a>
         )}
         <a href={github}>
-          <button className="btn btn-outline btn-error m-4">Github</button>
+          <button className="btn btn-outline text-black ">Github</button>
         </a>
       </div>
     </div>
