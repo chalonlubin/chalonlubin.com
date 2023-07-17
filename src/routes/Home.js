@@ -50,7 +50,7 @@ function Home() {
           <div className="bg-purple-200 p-1 rounded-xl">
             <img
               src="/images/chalon_outside3.jpeg"
-              className="border border-white rounded-xl shadow-sm"
+              className="border border-white rounded-xl shadow-sm hover:opacity-80"
               alt="Chalon outside"
             />
           </div>

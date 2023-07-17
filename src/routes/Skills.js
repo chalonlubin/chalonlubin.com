@@ -15,7 +15,7 @@ function Skills() {
   return (
     <div className="flex-grow">
       <Banner message="Hover icons for additional detail" />
-      <div className="flex justify-center items-center h-full pt-32">
+      <div className="flex justify-center items-center h-full m-4">
         <div className="flex flex-wrap flex-col rounded flex-wrap bg-white items-center">
           <Skill type={skills.frontend} title="Frontend"></Skill>
           <Skill type={skills.backend} title="Backend"></Skill>
@@ -23,7 +23,7 @@ function Skills() {
           <Skill type={skills.tools} title="Tools"></Skill>
         </div>
       </div>
-      </div>
+    </div>
   );
 }
 

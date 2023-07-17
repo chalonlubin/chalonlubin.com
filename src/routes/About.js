@@ -17,20 +17,27 @@ function About() {
           <img
             src="/images/chalon.png"
             alt="Headshot of Chalon"
-            className="rounded-full shadow-lg"
+            className="rounded-full shadow-lg hover:opacity-80"
           />
         </div>
 
         <div className="w-2/3 text-center mb-8">
           <h2 className="text-3xl font-heading font-semibold mb-4">Hello 👋</h2>
           <p>
-            I'm Chalon, a freelance software engineer. I've also been a bartender and
-            bar manager for the last few years, and prior to that I was a mental
-            health program director. In the last year I have pivoted to software engineering
-            because I find it mentally engaging, and great way to express a mix
-            of logic and creativity. I'm currently open to employment
-            opportunities, lets touch base if you have something to offer or
-            just want to connect.
+            Hi, I'm Chalon - a freelance software engineer driven by creativity
+            and analytical thinking. I bring a diverse background spanning
+            hospitality management, mental health programming, and most recently
+            software development. After years of building relationships and
+            leading teams in the service industry, I pivoted to engineering to
+            further challenge myself intellectually. I'm motivated by solving
+            complex problems with a mix of logic and imagination. As a lifelong
+            learner, I'm always seeking new skills and now applying my
+            analytical mindset to build user-friendly applications.
+            <br />
+            <br />
+            Currently, I'm open to new engineering opportunities that encourage
+            continuous growth. Let's connect if you have any openings or simply
+            want to chat!
           </p>
         </div>
 
