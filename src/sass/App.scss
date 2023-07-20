@@ -13,6 +13,6 @@ body {
 }
 
 .Typewriter {
-  height: 6rem;
-  width: 24rem;
+  height: clamp(3rem, 6rem, 16rem);
+  width: clamp(6rem, 18rem, 26rem);
 }
