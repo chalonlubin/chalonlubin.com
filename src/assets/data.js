@@ -4,7 +4,7 @@ export const projects = [
   {
     title: "Jobly",
     tech: "#Node.js #Express #React #TypeScript #Bootstrap",
-    image: "images/jobly-demo.gif",
+    image: "images/jobly-demo.png",
     link: "https://jobly-cl.netlify.app/",
     github: "https://github.com/chalonlubin/jobly-frontend",
     description: "Full-stack job searching app",

@@ -2,13 +2,11 @@ import Project from "../components/Project";
 import { projects, smallerProjects } from "../assets/data";
 import Banner from "../components/Banner";
 
-
-
 function Projects() {
   return (
     <>
       <Banner
-        message="Take a gander at my project readme's (found on github) for detailed information and insights"
+        message="Check out my project readme's (found on github) for detailed information and insights"
         color="bg-green-300"
       />
       <h2 className="projects-title text-xl font-bold text-center pt-5">
