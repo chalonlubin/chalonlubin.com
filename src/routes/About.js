@@ -24,20 +24,20 @@ function About() {
         <div className="w-2/3 text-center mb-8">
           <h2 className="text-3xl font-heading font-semibold mb-4">Hello 👋</h2>
           <p>
-            Hi, I'm Chalon - a freelance software engineer driven by creativity
+            I'm a freelance software engineer driven by creativity
             and analytical thinking. I bring a diverse background spanning
             hospitality management, mental health programming, and most recently
             software development. After years of building relationships and
             leading teams in the service industry, I pivoted to engineering to
-            further challenge myself intellectually. I'm motivated by solving
-            complex problems with a mix of logic and imagination. As a lifelong
-            learner, I'm always seeking new skills and now applying my
-            analytical mindset to build user-friendly applications.
+            further challenge myself intellectually. I enjoy solving complex
+            problems with a mix of logic and imagination. As a lifelong learner,
+            I'm always seeking new skills and now applying my analytical mindset
+            to build user-friendly applications.
             <br />
             <br />
             Currently, I'm open to new engineering opportunities that encourage
-            continuous growth. Let's connect if you have any openings or simply
-            want to chat!
+            growth & creativity. Let's connect if you have any openings or
+            simply want to chat!
           </p>
         </div>
 
@@ -63,20 +63,19 @@ function About() {
             <h2 className="About-title"> Why I Add Value</h2>
             <ul>
               <li>
-                • I'm <b>empathetic</b>, my background has given me the ability
-                to see diverse perspectives with ease, and handle conflicts
-                gracefully
+                • My blended background spanning hospitality, psychology, and
+                engineering gives me a unique toolkit. I couple analytical
+                thinking with creativity, empathy, and communications skills.
               </li>
               <li>
-                • In the last two industries I've worked in, I've earned
-                leadership positions & <b>added revenue</b> through both
-                networking and data analysis
+                • I have a knack for bringing in dollars - I increased bar
+                revenue by 30% in my last position by adjusting pricing informed
+                by competitor cost analysis & simply surveying the regulars.
               </li>
               <li>
-                • I take pride having no ego, I'm{" "}
-                <b>easygoing and approachable</b>. This translates to a smooth
-                working experience whether we are working together or you've
-                hired me
+                • I am easygoing, approachable, and ego-free. This means I am
+                enjoyable to work with and make collaboration smooth, whether we
+                are coworkers or you've hired me as a contractor.
               </li>
             </ul>
           </div>
