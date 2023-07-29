@@ -4,7 +4,7 @@ export const projects = [
   {
     title: "Jobly",
     tech: "#Node.js #Express #React #TypeScript #Bootstrap",
-    image: "images/jobly-demo.gif",
+    image: "images/jobly-demo.png",
     link: "https://jobly-cl.netlify.app/",
     github: "https://github.com/chalonlubin/jobly-frontend",
     description: "Full-stack job searching app",
@@ -13,8 +13,8 @@ export const projects = [
   {
     title: "Friender",
     tech: "#Node.js #Express #SQL #React #Bootstrap",
-    image: "images/friender-demo.gif",
-    link: "https://friender-ccl.surge.sh/",
+    image: "images/friender-demo.png",
+    link: "https://friender-cl.netlify.app/",
     github: "https://github.com/chalonlubin/friender-frontend",
     description: "Full-stack friend matching app",
   },
