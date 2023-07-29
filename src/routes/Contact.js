@@ -40,7 +40,7 @@ function Contact() {
       }).toString(),
     })
       .then(() =>
-        toast("Message Received!", {
+        toast("Message Sent 🚀", {
           position: "bottom-left",
           autoClose: 3000,
           hideProgressBar: false,
@@ -116,6 +116,7 @@ function Contact() {
               name="subject"
               className="w-full bg-gray-200 rounded border border-gray-400 focus:border-purple-300 focus:ring-2 focus:ring-purple-600 outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={handleChange}
+              value={formData.subject}
               required
             >
               <option value="" disabled>
