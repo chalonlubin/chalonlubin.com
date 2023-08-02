@@ -69,6 +69,7 @@ export const skills = {
     "typescript",
     "react",
     "reactnative",
+    "next-js",
     "jquery",
     "html",
     "css",

@@ -13,17 +13,15 @@ import Banner from "../components/Banner";
  */
 function Skills() {
   return (
-    <div className="flex-grow">
+    <>
       <Banner message="Hover icons for additional detail" />
-      <div className="flex justify-center items-center h-full m-4">
-        <div className="flex flex-wrap flex-col rounded flex-wrap bg-white items-center">
+        <div className="flex flex-wrap flex-col rounded shadow bg-white items-center m-14">
           <Skill type={skills.frontend} title="Frontend"></Skill>
           <Skill type={skills.backend} title="Backend"></Skill>
           <Skill type={skills.database} title="Database"></Skill>
           <Skill type={skills.tools} title="Tools"></Skill>
-        </div>
       </div>
-    </div>
+    </>
   );
 }
 
