@@ -52,8 +52,8 @@ function Home() {
         <div className="p-2 w-full md:w-1/2 flex justify-center">
           <div className="bg-purple-200 p-1 rounded-xl">
             <img
-              src="/images/chalon1.png"
-              className="border border-white rounded-xl shadow-sm hover:opacity-80"
+              src="/images/chalon1.webp"
+              className="border rounded-xl shadow-sm hover:opacity-80"
               alt="Chalon outside"
             />
           </div>

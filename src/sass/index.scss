@@ -8,7 +8,7 @@
   }
 
   .btn-outline {
-    @apply text-purple-500 hover:ring-1 hover:ring-purple-400 hover:ring-opacity-75 focus:ring-2 focus:ring-purple-400 focus:ring-opacity-75;
+    @apply text-black hover:ring-1 hover:ring-purple-400 hover:ring-opacity-75 focus:ring-2 focus:ring-purple-400 focus:ring-opacity-75;
     transition: box-shadow 0.3s ease-in-out;
   }
 
