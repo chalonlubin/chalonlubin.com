@@ -1,6 +1,6 @@
-import React from "react";
-import Typewriter from "typewriter-effect";
-import { Link } from "react-router-dom";
+import React from 'react';
+// import Typewriter from "typewriter-effect";
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -9,7 +9,9 @@ function Home() {
       <div className="flex flex-col md:flex-row items-center justify-center gap-3 w-full">
         <div className=" p-4 w-full md:w-1/2">
           <div className="flex flex-col items-center justify-gap-3 mt-6 font-heading">
-            <p className="text-lg pb-3">Welcome to my site ⚡️</p>
+            <p className="text-lg pb-3">
+              Welcome to my site ⚡️
+            </p>
             <h1 className="text-4xl text-center">
               I'm Chalon,
               <br />
@@ -19,7 +21,8 @@ function Home() {
               </span>
             </h1>
             <h2 className="font-semibold text-xl p-3 text-center">
-              I take concepts and mold them into digital realities.
+              I take concepts and mold them into digital
+              realities.
             </h2>
             {/* <div className="text-lg text-center">
               <Typewriter
@@ -40,10 +43,14 @@ function Home() {
               />
             </div> */}
             <div className="flex sm:flex-row gap-6 md:gap-10">
-              <Link to="contact" className="btn btn-primary">
+              <Link
+                to="contact"
+                className="btn btn-primary">
                 Hire Me
               </Link>
-              <Link to="/projects" className="btn btn-outline">
+              <Link
+                to="/projects"
+                className="btn btn-outline">
                 Portfolio
               </Link>
             </div>
