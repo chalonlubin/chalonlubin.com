@@ -18,12 +18,12 @@ function Navbar() {
 
   return (
     <nav>
-      <div className="px-2 py-4 shadow-lg">
+      <div className="p-2 shadow-md">
         <div className="flex items-center justify-between flex-wrap">
           <NavLink to="/">
             <div className="flex items-center flex-shrink-0 text-black">
-              <img className="h-14 w-14 mr-2" alt="logo" src="/logo.svg"></img>
-              <span className="font-bold text-4xl tracking-tight font-heading">
+              <img className="h-10 w-10 mr-2" alt="logo" src="/logo.svg"></img>
+              <span className="font-bold text-3xl tracking-tight font-heading">
                 Chalon.dev
               </span>
             </div>
