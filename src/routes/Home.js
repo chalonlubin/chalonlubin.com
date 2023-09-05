@@ -13,15 +13,15 @@ function Home() {
             <h1 className="text-4xl text-center">
               I'm Chalon,
               <br />
-              Full-Stack <br />
+              a Full-Stack <br />
               <span className="text-purple-600 font-semibold">
-                Software Engineer
+                Web Developer
               </span>
             </h1>
             <h2 className="font-semibold text-xl p-3 text-center">
-              With a background in psychology and communication
+              I take concepts and mold them into digital realities.
             </h2>
-            <div className="text-lg text-center">
+            {/* <div className="text-lg text-center">
               <Typewriter
                 options={{
                   strings: [
@@ -38,7 +38,7 @@ function Home() {
                   deleteSpeed: 30,
                 }}
               />
-            </div>
+            </div> */}
             <div className="flex sm:flex-row gap-6 md:gap-10">
               <Link to="contact" className="btn btn-primary">
                 Hire Me
@@ -49,7 +49,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="p-2 w-full md:w-1/2 flex justify-center">
+        {/* <div className="p-2 w-full md:w-1/2 flex justify-center">
           <div className="bg-purple-200 p-1 rounded-xl">
             <img
               src="/images/chalon1.webp"
@@ -57,7 +57,7 @@ function Home() {
               alt="Chalon outside"
             />
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Bottom section, may use later */}
