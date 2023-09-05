@@ -22,22 +22,25 @@ function About() {
         </div>
 
         <div className="w-2/3 text-center mb-8">
-          <h2 className="text-3xl font-heading font-semibold mb-4">Hello 👋</h2>
+          <h2 className="text-3xl font-heading font-semibold mb-4">
+            Hello 👋
+          </h2>
           <p>
-            I'm a freelance software engineer driven by creativity and
-            analytical thinking. I bring a diverse background spanning
-            hospitality management, mental health programming, and most recently
-            software development. After years of building relationships and
-            leading teams in the service industry, I pivoted to engineering to
-            further challenge myself intellectually. I enjoy solving complex
-            problems with a mix of logic and imagination. As a lifelong learner,
-            I'm always seeking new skills and now applying my analytical mindset
-            to build user-friendly applications.
+            I'm a seasoned software engineer with a unique
+            background spanning mental health, hospitality
+            management, and sales. I bring a fresh perspective to
+            problem-solving, using data-driven creativity to
+            craft effective solutions. My passion lies in
+            leveraging technology to enhance both individual
+            lives and businesses, and I'm eager to continue this
+            journey in the field of software development.
             <br />
             <br />
-            Currently, I'm open to new career & contract opportunities that
-            encourage growth & creativity. Let's connect if you have any
-            openings or simply want to chat!
+            Currently, I'm open to career & contract
+            opportunities that encourage creativity and unique
+            opportunities. Let's connect if you have a project in
+            mind, an opening on your team, or if you simply want
+            to get in touch!
           </p>
         </div>
 
@@ -50,9 +53,9 @@ function About() {
               <li>🎨 Creative person with a sense of humor</li>
               <li>🚀 Strive to progress & improve each day</li>
             </ul>
-            <h2 className="About-title">I enjoy this stuff</h2>
+            <h2 className="About-title">I enjoy these things</h2>
             <ul>
-              <li>🌊 Snowboarding & surfing</li>
+              <li>🚵 Snowboarding & mountain biking</li>
               <li>🏕️ Hanging outdoors with my dogs</li>
               <li>🥊 Muay Thai</li>
               <li>📈 Discussing business & economics </li>
@@ -64,21 +67,25 @@ function About() {
             <h2 className="About-title"> Career Strengths</h2>
             <ul>
               <li>
-                • My blended background spanning hospitality, psychology, and
-                engineering gives me a unique toolkit. I couple analytical
-                thinking with creativity, empathy, and communications skills.
+                • My blended background spanning hospitality,
+                psychology, and engineering gives me a unique
+                toolkit. I couple analytical thinking with
+                creativity, empathy, and communications skills.
               </li>
               <li>
-                • I'm business minded, and have a history of increasing revenue based
-                on data informed decisions - I increased bar revenue by 30% in
-                my last position by adjusting pricing informed by competitor
-                cost analysis & analyzing the data on popular items and
-                adjusting marketing accordingly.
+                • I'm business minded, and have a history of
+                increasing revenue based on data informed
+                decisions - I increased bar revenue by 30% in my
+                last position by adjusting pricing informed by
+                competitor cost analysis & analyzing the data on
+                popular items and adjusting marketing
+                accordingly.
               </li>
               <li>
-                • I am easygoing, approachable, and ego-free. This means I am
-                enjoyable to work with and make collaboration smooth, whether we
-                are coworkers or you've hired me as a contractor.
+                • I am easygoing, approachable, and ego-free.
+                This means I am enjoyable to work with and make
+                collaboration smooth, whether we are coworkers or
+                you've hired me as a contractor.
               </li>
             </ul>
           </div>
